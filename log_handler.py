@@ -5,8 +5,8 @@ import os
 import csv
 import sys
 import datetime
-log_file = sys.argv[1]
-#log_file = r"csv.log"
+# log_file = sys.argv[1]
+log_file = r"1.txt"
 csv_content = []
 # new_csv = sys.argv[2]
 new_csv = r"result.csv"
@@ -43,20 +43,13 @@ pattern_Open_Complete = "Open complete using time: (\d*) ms,"
 pattern_Run = "Run using time: (\d*) ms,"
 pattern_Buffer = "Buffer using time: (\d*) ms,"
 pattern_Open_Render = "Open to render using time: (\d*) ms,"
-pattern_IsHandshakeVerified_in = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR IsHandshakeVerified+"
-pattern_IsHandshakeVerified_out = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR IsHandshakeVerified-"
-pattern_SetLogging_in = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR SetLogging+"
-pattern_SetLogging_out = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR SetLogging-"
-pattern_SetVCASCommunicationHandlerSettings_in = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR SetVCASCommunicationHandlerSettings+"
-pattern_SetVCASCommunicationHandlerSettings_out = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR SetVCASCommunicationHandlerSettings-"
-pattern_CheckVCASConnection_in = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR CheckVCASConnection+"
-pattern_CheckVCASConnection_out = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR CheckVCASConnection-"
-pattern_Decrypt_in = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR Decrypt+"
-pattern_Decrypt_out = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR Decrypt-"
-pattern_IsDeviceProvisioned_in = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR IsDeviceProvisioned+"
-pattern_IsDeviceProvisioned_out = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR IsDeviceProvisioned-"
-pattern_ConnectAndProvisionDevice_in = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR ConnectAndProvisionDevice+"
-pattern_ConnectAndProvisionDevice_out = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR ConnectAndProvisionDevice-"
+pattern_IsHandshakeVerified = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR IsHandshakeVerified"
+pattern_SetLogging = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR SetLogging"
+pattern_SetVCASCommunicationHandlerSettings = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR SetVCASCommunicationHandlerSettings"
+pattern_CheckVCASConnection = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR CheckVCASConnection"
+pattern_Decrypt = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR Decrypt+"
+pattern_IsDeviceProvisioned = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR IsDeviceProvisioned"
+pattern_ConnectAndProvisionDevice = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR ConnectAndProvisionDevice"
 
 
 patternDic = {"Init": pattern_Init,
@@ -65,39 +58,33 @@ patternDic = {"Init": pattern_Init,
               "Run": pattern_Run,
               "Buffer": pattern_Buffer,
               "Open_to_render": pattern_Open_Render,
-              "IsHandshakeVerified_in": pattern_IsHandshakeVerified_in,
-              "IsHandshakeVerified_out": pattern_IsHandshakeVerified_out,
-              "SetLogging_in": pattern_SetLogging_in,
-              "SetLogging_out": pattern_SetLogging_out,
-              "SetVCASCommunicationHandlerSettings_in": pattern_SetVCASCommunicationHandlerSettings_in,
-              "SetVCASCommunicationHandlerSettings_out": pattern_SetVCASCommunicationHandlerSettings_out,
-              "CheckVCASConnection_in": pattern_CheckVCASConnection_in,
-              "CheckVCASConnection_out": pattern_CheckVCASConnection_out,
-              "IsDeviceProvisioned_in": pattern_IsHandshakeVerified_in,
-              "IsDeviceProvisioned_out": pattern_IsHandshakeVerified_out,
-              "ConnectAndProvisionDevice_in": pattern_ConnectAndProvisionDevice_in,
-              "ConnectAndProvisionDevice_out": pattern_ConnectAndProvisionDevice_out,
-              "Decrypt_in": pattern_Decrypt_in,
-              "Decrypt_out": pattern_Decrypt_out}
+              "IsHandshakeVerified": pattern_IsHandshakeVerified,
+              "SetLogging": pattern_SetLogging,
+              "SetVCASCommunicationHandlerSettings": pattern_SetVCASCommunicationHandlerSettings,
+              "CheckVCASConnection": pattern_CheckVCASConnection,
+              "IsDeviceProvisioned": pattern_IsDeviceProvisioned,
+              "ConnectAndProvisionDevice": pattern_ConnectAndProvisionDevice,
+              "Decrypt": pattern_Decrypt,
+              }
 
-patternList = ["Init", "Open", "Open_Complete", "Run",
-                "Buffer", "Open_Complete", "Open_to_render",
-                "IsHandshakeVerified_in", "IsHandshakeVerified_out",
-                "SetLogging_in", "SetLogging_out",
-                "SetVCASCommunicationHandlerSettings_in",
-                "SetVCASCommunicationHandlerSettings_out",
-                "ConnectAndProvisionDevice_in", "ConnectAndProvisionDevice_out",
-                "IsDeviceProvisioned_in", "IsDeviceProvisioned_out",
-                "CheckVCASConnection_in", "CheckVCASConnection_out",
-                "Decrypt_in", "Decrypt_out"]
+patternList1 = ["Init", "Open", "Open_Complete", "Run",
+                "Buffer", "Open_to_render"]
 
+patternList2 = ["IsHandshakeVerified", "SetLogging",
+                "SetVCASCommunicationHandlerSettings",
+                "ConnectAndProvisionDevice",
+                "IsDeviceProvisioned",
+                "CheckVCASConnection",
+                "Decrypt"]
+
+patternList = patternList1 + patternList2
 writer.writerow(patternList)
 
 
 def timeshift(inputtime, outputtime):
     time1 = datetime.datetime.strptime(inputtime, '%H:%M:%S.%f')
     time2 = datetime.datetime.strptime(outputtime, '%H:%M:%S.%f')
-    timeshift1 = ((time2 - time1).microseconds) / 1000.
+    timeshift1 = abs(((time2 - time1).microseconds) / 1000.)
     return timeshift1
 
 
@@ -132,27 +119,38 @@ def segmentLog(logfile):
     return new_content
 
 
-def text2list(log_file):
+def text2list(logfile):
     """translate text segment to new dictionary: {"Stop":xx, "Close":yy..}"""
     #content = open("1.txt", "rb").read()
-    content = segmentLog(log_file)
+    content = segmentLog(logfile)
     segmentDicList = {}
     segmentList = []
     for segment in content:
+        print segment
+        print '*' * 20
         for key, vaule in patternDic.items():
-            result = re.search(vaule, str(segment))
-            if result:
-                segmentDicList[key] = result.group(1)
+            result = re.findall(vaule, str(segment))
+            # if len(result) == 1:
+            if key in patternList1:  # 当关键字只能是唯一的时候
+                segmentDicList[key] = result[0]
                 # print result.group(1)
-            else:
-                segmentDicList[key] = " "
+            else:  # 当关键字应该出现2次的情况
+                if len(result) == 2:
+                    # print result
+                    segmentDicList[key] = timeshift(result[0], result[1])
+                elif len(result) == 4:
+                    print result
+                    segmentDicList[key] = timeshift(result[0], result[1])
+                else:
+                    segmentDicList[key] = " "
+                    # segmentDicList[key] = result[0]
         segmentList.append([segmentDicList[key] for key in patternList])
     return segmentList
 
 
 if __name__ == '__main__':
     line_list = text2list(log_file)
-    # line_list = segmentLog("1.txt")
+    # line_list = segmentLog(log_file)
     # print line_list
     for i in line_list:
         print i

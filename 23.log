@@ -1,0 +1,1332 @@
+--------- beginning of /dev/log/main
+01-01 08:16:04.149 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 66
+--------- beginning of /dev/log/system
+01-01 08:16:04.149 W/PowerManagerService( 2703): Timer 0x3->0x1|0x0
+01-01 08:16:04.149 I/PowerManagerService( 2703): Ulight 3->1|0
+01-01 08:16:04.165 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 64
+01-01 08:16:04.180 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 61
+01-01 08:16:04.195 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 59
+01-01 08:16:04.215 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 57
+01-01 08:16:04.230 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 55
+01-01 08:16:04.245 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 52
+01-01 08:16:04.260 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 50
+01-01 08:16:04.280 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 48
+01-01 08:16:04.295 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 45
+01-01 08:16:04.310 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 43
+01-01 08:16:04.325 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 41
+01-01 08:16:04.345 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 38
+01-01 08:16:04.360 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 36
+01-01 08:16:04.375 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 34
+01-01 08:16:04.390 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 31
+01-01 08:16:04.405 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 29
+01-01 08:16:04.425 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 27
+01-01 08:16:04.440 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 24
+01-01 08:16:04.455 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 22
+01-01 08:16:04.470 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 20
+01-01 08:16:04.475 I/PowerManagerService( 2703): Light Animator Finished curIntValue=20
+01-01 08:16:05.165 D/dalvikvm( 3515): GC_EXPLICIT freed 29K, 49% free 2792K/5379K, external 0K/0K, paused 76ms
+01-01 08:16:10.195 D/dalvikvm( 3606): GC_EXPLICIT freed 53K, 49% free 2827K/5447K, external 0K/0K, paused 102ms
+01-01 08:16:11.155 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 17
+01-01 08:16:11.155 W/PowerManagerService( 2703): Timer 0x1->0x0|0x0
+01-01 08:16:11.155 D/PowerManagerService( 2703): Screen__Off : Timeout
+01-01 08:16:11.155 I/PowerManagerService( 2703): Ulight 1->0|0
+01-01 08:16:11.170 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 15
+01-01 08:16:11.190 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 12
+01-01 08:16:11.205 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 10
+01-01 08:16:11.225 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 7
+01-01 08:16:11.240 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 5
+01-01 08:16:11.255 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 2
+01-01 08:16:11.275 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 0
+01-01 08:16:11.275 I/PowerManagerService( 2703): Light Animator Finished curIntValue=0
+01-01 08:16:11.280 E/power   ( 2703): *** set_screen_state 0
+01-01 08:16:11.280 D/SensorManager( 2703): unregisterListener:: disable all sensors for this listener,  listener = com.android.server.PowerManagerService$13@4052a230
+01-01 08:16:11.280 E/lights  ( 2703): write_int: path /sys/class/leds/keyboard-backlight/brightness, value 0
+01-01 08:16:11.280 D/KeyguardViewMediator( 2703): onScreenTurnedOff(3)
+01-01 08:16:11.280 D/PowerManagerService( 2703): enableLightSensor false
+01-01 08:16:11.280 W/PowerManagerService( 2703): CurLockF mPS:0 mUS=0
+01-01 08:16:11.280 W/PowerManagerService( 2703): type=PARTIAL_WAKE_LOCK              'sleep_broadcast' active (mS=0)  activeT=4
+01-01 08:16:11.280 W/PowerManagerService( 2703): mPokeLocks.size=0:
+01-01 08:16:11.280 D/PowerManagerService( 2703): sendNotificationLocked on=false
+01-01 08:16:11.280 D/PowerManagerService( 2703): mNotificationTask : off
+01-01 08:16:11.285 D/KeyguardViewMediator( 2703): setting alarm to turn off keyguard, seq = 5
+01-01 08:16:11.285 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp()
+01-01 08:16:11.285 V/OrientationDebug( 2703): in updateOrientationListenerLp(), Screen status=false, current orientation=1, SensorEnabled=true
+01-01 08:16:11.285 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp(), now call mOrientationListener.disable(), and mOrientationSensorEnabled = false #2
+01-01 08:16:11.285 I/OrientationDebug( 2703): [WindowOrientationListener] in disable(), now call SensorManager.unregisterListener()
+01-01 08:16:11.285 D/SensorManager( 2703): unregisterListener:: disable all sensors for this listener,  listener = android.view.WindowOrientationListener$SensorEventListenerImpl@4087f840
+01-01 08:16:11.285 V/WindowManager( 2703): Setting event dispatching to false
+01-01 08:16:11.315 D/SurfaceFlinger( 2703): About to give-up screen, flinger = 0x12ffe8
+01-01 08:16:11.390 W/ProcessStats( 2703): Skipping unknown process pid 5123
+01-01 08:16:11.400 E/com.samsung.app( 3016): [MSC]>>> WeatherWidgetProvider.java:323 [0:0] onReceive()@@@ sec.android.intent.action.HOME_PAUSE
+01-01 08:16:11.405 E/com.samsung.app( 3016): [MSC]>>> WidgetIdManager.java:39 [0:0] AccuWeatherClockWidgetID_Length
+01-01 08:16:11.405 E/com.samsung.app( 3016): [MSC]>>> WidgetIdManager.java:40 [0:0] getPrefIDs() : length = 0
+01-01 08:16:11.415 D/GLSurfaceViewGroup( 2910): Skipped drawing due to suspendDrawingUntilResume()
+01-01 08:16:11.430 E/com.samsung.app( 3016): [MSC]>>> WeatherWidgetProvider.java:1592 [0:0] disable handler
+01-01 08:16:11.450 I/PhotoAppWidgetProvider( 3669): onReceive
+01-01 08:16:11.450 I/PhotoAppWidgetProvider( 3669): PauseSlideShow
+01-01 08:16:11.450 D/PhotoAppWidgetProvider( 3669): onReceive End
+01-01 08:16:11.455 D/CalendarAppWidgetProviderAgenda( 3515): ACTION_HOME_PAUSE: false
+01-01 08:16:11.490 I/StatusBarPolicy( 2842): onDataActivity-D:0
+01-01 08:16:11.495 I/StatusBarPolicy( 2842): onDataActivity-D:0
+01-01 08:16:11.500 D/PhoneUtils( 2862): updateRAFT() : FactoryMode : false
+01-01 08:16:11.515 I/Launcher( 2910): ACTION_SCREEN_OFF
+01-01 08:16:14.230 E/BatteryService( 2703): TMU status = 0
+01-01 08:16:14.230 D/BatteryService( 2703): update start
+01-01 08:16:14.230 D/BatteryService( 2703): updateBattery level:6 scale:100 status:2 health:2 present:true voltage: 3771 temperature: 390 technology: Li-ion AC powered:false USB powered:true icon:17302233
+01-01 08:16:14.239 E/lights  ( 2703): write_int: path /sys/class/leds/red/brightness, value 255
+01-01 08:16:14.239 E/lights  ( 2703): write_int: path /sys/class/leds/green/brightness, value 255
+01-01 08:16:14.239 E/lights  ( 2703): write_int: path /sys/class/leds/blue/brightness, value 0
+01-01 08:16:14.239 E/lights  ( 2703): write_int: path /sys/class/leds/red/device/blink, value 0
+01-01 08:16:14.239 D/PowerManagerService( 2703): Battery info : mOldTemperatureIndex : 1      newTemperature : 390      newTemperatureIndex : 0
+01-01 08:16:14.239 D/PowerManagerService( 2703):  TemperatureHandlerLocked : CHANGED : mMaxBrightness : 255
+01-01 08:16:14.239 I/PowerManagerService( 2703): Ulight 0->0|3
+01-01 08:16:14.255 D/PhoneUtils( 2862): updateRAFT() : FactoryMode : false
+01-01 08:16:14.260 I/StatusBarPolicy( 2842): BAT. S:2 H:2
+01-01 08:16:16.289 D/KeyguardViewMediator( 2703): doKeyguard: showing the lock screen
+01-01 08:16:16.289 D/KeyguardViewMediator( 2703): showLocked
+01-01 08:16:16.289 D/KeyguardViewMediator( 2703): handleShow
+01-01 08:16:16.299 D/LockPatternKeyguardView( 2703): Face RecongnitionValue = 0
+01-01 08:16:16.315 D/LockscreenWallpaperUpdater( 2703): add lockscreenwallpaper
+01-01 08:16:16.395 D/GlassLockScreenMusicWidget( 2703): Controller Initiation Running!!
+01-01 08:16:16.395 D/GlassLockScreenMusicWidget( 2703): at init() send broadcast
+01-01 08:16:16.395 D/GlassLockScreenMusicWidget( 2703): resetMinTimer()
+01-01 08:16:16.395 D/GlassLockScreenMusicWidget( 2703): removeMinTimer()
+01-01 08:16:16.395 D/GlassLockScreenMusicWidget( 2703): addMinTimer()
+01-01 08:16:16.505 D/dalvikvm( 2703): GC_EXTERNAL_ALLOC freed 791K, 43% free 7454K/12935K, external 2160K/2161K, paused 77ms
+01-01 08:16:16.520 I/System.out( 3790): FMRADIO Sending OFF broadcast .... 
+01-01 08:16:16.520 E/GlassLockScreenFMRadioWidget( 2703): onReceive() : intent action=com.android.fm.player_lock.status.off
+01-01 08:16:16.585 D/dalvikvm( 2703): GC_EXTERNAL_ALLOC freed 55K, 43% free 7427K/12935K, external 2695K/2716K, paused 47ms
+01-01 08:16:16.600 D/GlassLockScreenMissedEventWidget( 2703): Controller Initiation Running!!
+01-01 08:16:16.615 D/UnlockClock( 2703): GMT_update mRightNow.getTimeZone().getID() == Asia/Hong_Kong
+01-01 08:16:16.660 D/dalvikvm( 2703): GC_EXTERNAL_ALLOC freed 17K, 43% free 7443K/12935K, external 3446K/3476K, paused 47ms
+01-01 08:16:16.670 D/GlassLockscreenInfo( 2703): init
+01-01 08:16:16.670 D/GlassLockScreen( 2703): CLOCK_POSITION from Setting Value = 2
+01-01 08:16:16.720 D/dalvikvm( 2703): GC_EXTERNAL_ALLOC freed 11K, 43% free 7451K/12935K, external 2769K/3320K, paused 47ms
+01-01 08:16:16.725 D/GlassLockScreenFMRadioWidget( 2703): getIsFMPlayerPlaying() : mIsFMPlayerPlaying=false
+01-01 08:16:16.725 D/GlassLockScreen( 2703):  is FM Playing  = false
+01-01 08:16:16.725 D/GlassLockScreenFMRadioWidget( 2703): getIsFMPlayerPlaying() : mIsFMPlayerPlaying=false
+01-01 08:16:16.745 D/LockscreenWallpaperUpdater( 2703): add lockscreenwallpaper
+01-01 08:16:16.750 D/KeyguardViewMediator( 2703): adjustUserActivityLocked mShowing: true mHidden: false
+01-01 08:16:16.750 D/GlassLockScreenFMRadioWidget( 2703): handleMediaUpdate !! isPlaying = 0 isStop = 1 mIsFMPlayerPlaying = false
+01-01 08:16:16.750 D/PowerManagerService( 2703): enableUserActivity false
+01-01 08:16:16.750 D/StatusBarManagerService( 2703): manageDisableList what=0x1 pkg=android
+01-01 08:16:16.760 D/GLSurfaceViewGroup( 2910): Skipped drawing due to suspendDrawingUntilResume()
+01-01 08:16:16.775 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp()
+01-01 08:16:16.775 V/OrientationDebug( 2703): in updateOrientationListenerLp(), Screen status=false, current orientation=5, SensorEnabled=false
+01-01 08:16:16.775 I/WindowManager( 2703):   CREATE SURFACE Surface(name=Keyguard, identity=99, mNativeSurface=0) IN SESSION android.view.SurfaceSession@408cc2b0: pid=2703 format=-3 flags=0x0 / Window{408bf658 Keyguard paused=false}
+01-01 08:16:16.775 W/WindowManager( 2703): Layout repeat skipped after too many iterations
+01-01 08:16:16.775 W/WindowManager( 2703): Layout repeat skipped after too many iterations
+01-01 08:16:16.775 W/WindowManager( 2703): Layout repeat skipped after too many iterations
+01-01 08:16:16.780 W/WindowManager( 2703): Animation repeat aborted after too many iterations
+01-01 08:16:19.899 D/GlassLockScreenMusicWidget( 2703): setMinLayout()
+01-01 08:16:19.899 D/GlassLockScreenMusicWidget( 2703): startTranslateAnimation()
+01-01 08:16:21.835 D/dalvikvm( 3650): GC_EXPLICIT freed 40K, 49% free 2757K/5379K, external 0K/0K, paused 60ms
+01-01 08:16:23.755 W/PowerManagerService( 2703): Timer 0x0->0x0|0x0
+01-01 08:16:26.860 D/dalvikvm( 3661): GC_EXPLICIT freed 13K, 50% free 2715K/5379K, external 0K/0K, paused 91ms
+01-01 08:16:28.885 D/NetdConnector( 2703): doCommand :: cmd = interface readrxcounter rmnet0
+01-01 08:16:28.885 D/NetdConnector( 2703): sendCommand :: command = interface readrxcounter rmnet0, argument = null
+01-01 08:16:28.885 D/NetdConnector( 2703): SND -> {interface readrxcounter rmnet0} {null}
+01-01 08:16:28.890 D/NetdConnector( 2703): RCV <- {216 0}
+01-01 08:16:28.900 D/NetdConnector( 2703): RSP <- {216 0}
+01-01 08:16:28.900 D/NetdConnector( 2703): doCommand :: cmd = interface readtxcounter rmnet0
+01-01 08:16:28.900 D/NetdConnector( 2703): sendCommand :: command = interface readtxcounter rmnet0, argument = null
+01-01 08:16:28.900 D/NetdConnector( 2703): SND -> {interface readtxcounter rmnet0} {null}
+01-01 08:16:28.900 D/NetdConnector( 2703): RCV <- {217 0}
+01-01 08:16:28.905 D/NetdConnector( 2703): RSP <- {217 0}
+01-01 08:16:28.930 D/dalvikvm( 3550): GC_CONCURRENT freed 432K, 48% free 3284K/6215K, external 0K/0K, paused 7ms+2ms
+01-01 08:16:34.015 D/dalvikvm( 3669): GC_EXPLICIT freed 41K, 50% free 2828K/5575K, external 4K/516K, paused 117ms
+01-01 08:16:38.980 D/dalvikvm( 3682): GC_EXPLICIT freed 33K, 50% free 2719K/5379K, external 0K/0K, paused 77ms
+01-01 08:16:44.005 D/dalvikvm( 3790): GC_EXPLICIT freed 3K, 49% free 2778K/5379K, external 0K/0K, paused 95ms
+01-01 08:16:48.995 D/dalvikvm( 3245): GC_EXPLICIT freed 85K, 50% free 2735K/5379K, external 0K/0K, paused 78ms
+01-01 08:16:54.030 D/dalvikvm( 3550): GC_EXPLICIT freed 77K, 48% free 3284K/6215K, external 0K/0K, paused 110ms
+01-01 08:16:54.689 E/BatteryService( 2703): TMU status = 0
+01-01 08:16:54.689 D/BatteryService( 2703): update start
+01-01 08:16:54.689 D/BatteryService( 2703): updateBattery level:6 scale:100 status:2 health:2 present:true voltage: 3782 temperature: 390 technology: Li-ion AC powered:false USB powered:true icon:17302233
+01-01 08:16:54.720 D/PhoneUtils( 2862): updateRAFT() : FactoryMode : false
+01-01 08:16:54.724 I/StatusBarPolicy( 2842): BAT. S:2 H:2
+01-01 08:16:59.830 D/dalvikvm( 4621): GC_EXPLICIT freed 100K, 42% free 3680K/6279K, external 0K/0K, paused 68ms
+01-01 08:17:00.005 D/UnlockClock( 2703): GMT_update mRightNow.getTimeZone().getID() == Asia/Hong_Kong
+01-01 08:17:05.210 D/dalvikvm( 2845): GC_EXPLICIT freed 94K, 46% free 3761K/6855K, external 0K/512K, paused 102ms
+01-01 08:17:10.195 D/dalvikvm( 3016): GC_EXPLICIT freed 72K, 50% free 2850K/5639K, external 0K/0K, paused 82ms
+01-01 08:17:34.930 E/BatteryService( 2703): TMU status = 0
+01-01 08:17:34.930 D/BatteryService( 2703): update start
+01-01 08:17:34.930 D/BatteryService( 2703): updateBattery level:6 scale:100 status:2 health:2 present:true voltage: 3786 temperature: 390 technology: Li-ion AC powered:false USB powered:true icon:17302233
+01-01 08:17:34.955 D/PhoneUtils( 2862): updateRAFT() : FactoryMode : false
+01-01 08:17:34.955 I/StatusBarPolicy( 2842): BAT. S:2 H:2
+01-01 08:18:00.009 D/UnlockClock( 2703): GMT_update mRightNow.getTimeZone().getID() == Asia/Hong_Kong
+01-01 08:18:05.185 D/dalvikvm( 3245): GC_EXPLICIT freed 11K, 50% free 2735K/5379K, external 0K/0K, paused 78ms
+01-01 08:18:15.199 E/BatteryService( 2703): TMU status = 0
+01-01 08:18:15.199 D/BatteryService( 2703): update start
+01-01 08:18:15.199 D/BatteryService( 2703): updateBattery level:6 scale:100 status:2 health:2 present:true voltage: 3783 temperature: 390 technology: Li-ion AC powered:false USB powered:true icon:17302233
+01-01 08:18:15.225 D/PhoneUtils( 2862): updateRAFT() : FactoryMode : false
+01-01 08:18:15.230 I/StatusBarPolicy( 2842): BAT. S:2 H:2
+01-01 08:18:20.340 D/dalvikvm( 3550): GC_EXPLICIT freed 267K, 48% free 3284K/6215K, external 0K/0K, paused 56ms
+01-01 08:18:25.400 D/dalvikvm( 2845): GC_EXPLICIT freed 31K, 46% free 3752K/6855K, external 0K/512K, paused 109ms
+01-01 08:18:55.320 E/BatteryService( 2703): TMU status = 0
+01-01 08:18:55.320 D/BatteryService( 2703): update start
+01-01 08:18:55.320 D/BatteryService( 2703): updateBattery level:6 scale:100 status:2 health:2 present:true voltage: 3784 temperature: 380 technology: Li-ion AC powered:false USB powered:true icon:17302233
+01-01 08:18:55.349 D/PhoneUtils( 2862): updateRAFT() : FactoryMode : false
+01-01 08:18:55.360 I/StatusBarPolicy( 2842): BAT. S:2 H:2
+01-01 08:19:00.020 D/UnlockClock( 2703): GMT_update mRightNow.getTimeZone().getID() == Asia/Hong_Kong
+01-01 08:19:36.474 E/BatteryService( 2703): TMU status = 0
+01-01 08:19:36.474 D/BatteryService( 2703): update start
+01-01 08:19:36.474 D/BatteryService( 2703): updateBattery level:7 scale:100 status:2 health:2 present:true voltage: 3787 temperature: 370 technology: Li-ion AC powered:false USB powered:true icon:17302233
+01-01 08:19:36.484 D/GlassLockscreenInfo( 2703): onResume()
+01-01 08:19:36.510 D/PhoneUtils( 2862): updateRAFT() : FactoryMode : false
+01-01 08:19:36.510 I/StatusBarPolicy( 2842): BAT. S:2 H:2
+01-01 08:19:41.690 D/dalvikvm( 3550): GC_EXPLICIT freed 253K, 48% free 3284K/6215K, external 0K/0K, paused 90ms
+01-01 08:19:46.720 D/dalvikvm( 2845): GC_EXPLICIT freed 19K, 46% free 3752K/6855K, external 0K/512K, paused 114ms
+01-01 08:20:00.009 D/UnlockClock( 2703): GMT_update mRightNow.getTimeZone().getID() == Asia/Hong_Kong
+01-01 08:20:05.180 D/dalvikvm( 3245): GC_EXPLICIT freed 11K, 50% free 2735K/5379K, external 0K/0K, paused 77ms
+01-01 08:20:11.250 I/Z7Service( 3359): wakelock acquired: 1
+01-01 08:20:11.250 V/Scheduler( 3359): handleMessage 1
+01-01 08:20:11.255 D/Scheduler( 3359): Adding a timed task to execute queue
+01-01 08:20:11.255 V/Scheduler( 3359): addTask: [TASK (type:LOG_SYSTEM_INFORMATION) T#500 STATUS:NONE]
+01-01 08:20:11.255 V/Scheduler( 3359): Task [TASK (type:LOG_SYSTEM_INFORMATION) T#500 STATUS:NONE] added to a queue of [Empty] true
+01-01 08:20:11.255 D/Scheduler( 3359): processQueue()
+01-01 08:20:11.255 V/Scheduler( 3359): Scheduler dump:
+01-01 08:20:11.255 V/Scheduler( 3359): Number of tasks: 1
+01-01 08:20:11.255 V/Scheduler( 3359):   -- [TASK (type:LOG_SYSTEM_INFORMATION) T#500 STATUS:NONE]
+01-01 08:20:11.255 V/Scheduler( 3359): Number of tasks waiting for timer: 0
+01-01 08:20:11.255 V/Scheduler( 3359): Number of tasks waiting for connection: 0
+01-01 08:20:11.255 V/Scheduler( 3359): [Scheduler] Queue: [TASK (type:LOG_SYSTEM_INFORMATION) T#500 STATUS:NONE]
+01-01 08:20:11.255 I/Scheduler( 3359): [processQueue] Executing SDTask [TASK (type:LOG_SYSTEM_INFORMATION) T#500 STATUS:NONE]
+01-01 08:20:11.255 V/Scheduler( 3359): RUNNING TASK [TASK (type:LOG_SYSTEM_INFORMATION) T#500 STATUS:NONE]
+01-01 08:20:11.255 V/Scheduler( 3359): doRun.ok[TASK (type:LOG_SYSTEM_INFORMATION) T#500 STATUS:NONE]
+01-01 08:20:11.310 I/Scheduler( 3359): Z7 client information, generated at 2000-01-01 08:20:11.273:
+01-01 08:20:11.310 I/Scheduler( 3359): Version: 23.43.6014.3
+01-01 08:20:11.310 I/Scheduler( 3359): Brand: samsungssh
+01-01 08:20:11.310 I/Scheduler( 3359): 7TP address: f-0-0
+01-01 08:20:11.310 I/Scheduler( 3359): Relay address: eu020.fra.samsungsocialhub.com:7735
+01-01 08:20:11.310 I/Scheduler( 3359): GSD URL: http://gsd.fra.samsungsocialhub.com/gsd/getPos
+01-01 08:20:11.310 I/Scheduler( 3359): Phone locale: zh_CN
+01-01 08:20:11.310 I/Scheduler( 3359): Phone model: GT-I9100
+01-01 08:20:11.310 I/Scheduler( 3359): Phone OS version: 2.3.5
+01-01 08:20:11.310 I/Scheduler( 3359): Accounts:
+01-01 08:20:11.310 I/Scheduler( 3359): [processQueue] SDTask [TASK (type:LOG_SYSTEM_INFORMATION) T#500 STATUS:NONE] execution success (RUN_ACTION_DONE) removing
+01-01 08:20:11.310 D/Scheduler( 3359): doDone: [TASK (type:LOG_SYSTEM_INFORMATION) T#500 STATUS:NONE]; res: 0
+01-01 08:20:11.315 W/Scheduler( 3359): task contained in tasks list [TASK (type:LOG_SYSTEM_INFORMATION) T#500 STATUS:NONE]
+01-01 08:20:11.325 D/ZTask   ( 3359): setStatus DONE for task [TASK (type:LOG_SYSTEM_INFORMATION) T#500 STATUS:NONE]
+01-01 08:20:11.325 V/Scheduler( 3359): [processQueue] Removing task [TASK (type:LOG_SYSTEM_INFORMATION) T#500 STATUS:DONE]
+01-01 08:20:11.325 V/Scheduler( 3359): [processQueue] Queue done.
+01-01 08:20:11.325 I/Scheduler( 3359): handleMessage.done.
+01-01 08:20:11.330 I/Z7Service( 3359): wakelock released: 0 still held?false
+01-01 08:20:13.594 I/[FT]-Server( 3568): FTSRunningChecker :Running Thread - check server state: wait responce for 10000 ms
+01-01 08:20:13.600 W/[FT]-Server( 3639): FTSService :mBroadcastReceiver from popup : com.sec.android.app.FileShareServer.SERVER_CHECK  mConnectionMode -2
+01-01 08:20:13.605 I/[FT]-Server( 3568): FTSRunningChecker : remove Message : SERVER_NOT_RESPONCE start - server is Alive
+01-01 08:20:13.605 I/[FT]-Server( 3568): FTSRunningChecker :echoServerThread == == thisThread(sleep for 900000)true
+01-01 08:20:16.579 D/BatteryService( 2703): update start
+01-01 08:20:16.585 E/BatteryService( 2703): TMU status = 0
+01-01 08:20:16.585 D/BatteryService( 2703): updateBattery level:7 scale:100 status:2 health:2 present:true voltage: 3786 temperature: 370 technology: Li-ion AC powered:false USB powered:true icon:17302233
+01-01 08:20:16.609 D/PhoneUtils( 2862): updateRAFT() : FactoryMode : false
+01-01 08:20:16.625 I/StatusBarPolicy( 2842): BAT. S:2 H:2
+01-01 08:20:53.254 D/InputReader( 2703): Input event: value=1
+01-01 08:20:53.254 I/ScreenCaptureAction( 2703): updateHomeKeyPressed(), pressed = true
+01-01 08:20:53.254 D/KeyguardViewMediator( 2703): onWakeKeyWhenKeyguardShowing(3)
+01-01 08:20:53.254 D/KeyguardViewMediator( 2703): wakeWhenReadyLocked(3)
+01-01 08:20:53.259 D/KeyguardViewMediator( 2703): handleWakeWhenReady(3)
+01-01 08:20:53.259 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:20:53.259 E/lights  ( 2703): write_int: path /sys/devices/virtual/misc/melfas_touchkey/brightness, value 1
+01-01 08:20:53.259 E/power   ( 2703): *** set_screen_state 1
+01-01 08:20:53.259 D/SensorManager( 2703): registerListener :: handle = 3  name= CM3663 Light Sensor delay= 200000 Listener= com.android.server.PowerManagerService$13@4052a230
+01-01 08:20:53.259 D/PowerManagerService( 2703): reactivateScreenLocksLocked mProxIgnoredBecauseScreenTurnedOff=false
+01-01 08:20:53.259 D/PowerManagerService( 2703): Screen__On : acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:53.259 I/PowerManagerService( 2703): Ulight 0->7|0
+01-01 08:20:53.259 D/PowerManagerService( 2703): setLightBrightness : mButtonLight : 69
+01-01 08:20:53.259 D/PowerManagerService( 2703): enableLightSensor true
+01-01 08:20:53.275 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 3
+01-01 08:20:53.275 D/PowerManagerService( 2703): sendNotificationLocked on=true
+01-01 08:20:53.275 D/PowerManagerService( 2703): mNotificationTask : on
+01-01 08:20:53.280 D/KeyguardViewMediator( 2703): onScreenTurnedOn, seq = 6
+01-01 08:20:53.280 D/KeyguardViewMediator( 2703): notifyScreenOnLocked
+01-01 08:20:53.280 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp()
+01-01 08:20:53.280 V/OrientationDebug( 2703): in updateOrientationListenerLp(), Screen status=true, current orientation=5, SensorEnabled=false
+01-01 08:20:53.280 I/OrientationDebug( 2703): [pwm] needSensorRunningLp(), return true #4
+01-01 08:20:53.280 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp(), now call mOrientationListener.enable(), and mOrientationSensorEnabled = true #1
+01-01 08:20:53.280 I/OrientationDebug( 2703): [WindowOrientationListener] in enable(), now call SensorManager.registerListener()
+01-01 08:20:53.280 D/SensorManager( 2703): registerListener :: handle = 0  name= K3DH Acceleration Sensor delay= 200000 Listener= android.view.WindowOrientationListener$SensorEventListenerImpl@4087f840
+01-01 08:20:53.280 V/WindowManager( 2703): Setting event dispatching to true
+01-01 08:20:53.290 D/KeyguardViewMediator( 2703): handleNotifyScreenOn
+01-01 08:20:53.290 D/LockPatternKeyguardView( 2703): onScreenTurnedOn()
+01-01 08:20:53.290 D/LockPatternKeyguardView( 2703): mLockScreen instanceof GlassLockScreen
+01-01 08:20:53.290 D/GlassLockScreen( 2703): setScreenOn() mGlassLockScreenMusicWidget=com.android.internal.policy.impl.GlassLockScreenMusicWidget@4094aa70
+01-01 08:20:53.290 D/LockscreenWallpaperUpdater( 2703): onResume()
+01-01 08:20:53.290 D/LockscreenWallpaperUpdater( 2703): get drawable (public) 
+01-01 08:20:53.290 D/LockscreenWallpaperUpdater( 2703): get drawable (keygurardupdatemonitor private get) 
+01-01 08:20:53.290 D/LockscreenWallpaperUpdater( 2703): drawable is null(keygurardupdatemonitor private get) 
+01-01 08:20:53.290 D/LockscreenWallpaperUpdater( 2703): set drawable
+01-01 08:20:53.290 D/LockscreenWallpaperUpdater( 2703): wallpaper file not exist 
+01-01 08:20:53.440 D/SurfaceFlinger( 2703): Screen about to return, flinger = 0x12ffe8
+01-01 08:20:53.455 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 6
+01-01 08:20:53.460 D/InputReader( 2703): Input event: value=0
+01-01 08:20:53.465 D/dalvikvm( 2703): GC_EXTERNAL_ALLOC freed 436K, 42% free 7517K/12935K, external 4641K/5242K, paused 154ms
+01-01 08:20:53.465 I/ScreenCaptureAction( 2703): updateHomeKeyPressed(), pressed = false
+01-01 08:20:53.465 D/InputReader( 2703): Input event: value=1
+01-01 08:20:53.465 I/ScreenCaptureAction( 2703): updateHomeKeyPressed(), pressed = true
+01-01 08:20:53.465 D/InputReader( 2703): Input event: value=0
+01-01 08:20:53.470 I/ScreenCaptureAction( 2703): updateHomeKeyPressed(), pressed = false
+01-01 08:20:53.490 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 10
+01-01 08:20:53.500 I/Launcher( 2910): onResume(). mIsNewIntent : false screenOff: true
+01-01 08:20:53.500 I/HomeKeyDoubleClick( 2703): addAction() is called.  action = 1  canceled = false
+01-01 08:20:53.500 I/InputDispatcher( 2703): Delivering key to current input target: action: 1, channel '4085e980  (server)'
+01-01 08:20:53.500 I/InputDispatcher( 2703): Delivering key to current input target: action: 1, channel 'PointerDevice-3970 (server)'
+01-01 08:20:53.500 I/HomeKeyDoubleClick( 2703): addAction() is called.  action = 0  canceled = false
+01-01 08:20:53.500 I/HomeKeyDoubleClick( 2703): in addAction(), now add
+01-01 08:20:53.500 I/HomeKeyDoubleClick( 2703): in addAction(), down event. now call postCheckRunnable().
+01-01 08:20:53.500 I/HomeKeyDoubleClick( 2703): postCheckRunnable() is called
+01-01 08:20:53.500 I/HomeKeyDoubleClick( 2703): in postCheckRunnable(), now posting.
+01-01 08:20:53.500 I/HomeKeyDoubleClick( 2703): in postCheckRunnable(), posting success.
+01-01 08:20:53.505 I/InputDispatcher( 2703): Delivering key to current input target: action: 0, channel '4085e980  (server)'
+01-01 08:20:53.505 I/HomeKeyDoubleClick( 2703): addAction() is called.  action = 1  canceled = false
+01-01 08:20:53.505 I/HomeKeyDoubleClick( 2703): in addAction(), now add
+01-01 08:20:53.505 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 13
+01-01 08:20:53.505 D/Launcher( 2910): It's image wallpaper. suggestDesiredDimensions(-1,-1)
+01-01 08:20:53.510 I/InputDispatcher( 2703): Delivering key to current input target: action: 1, channel '4085e980  (server)'
+01-01 08:20:53.515 I/InputDispatcher( 2703): Delivering key to current input target: action: 0, channel 'PointerDevice-3970 (server)'
+01-01 08:20:53.540 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 17
+01-01 08:20:53.565 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 20
+01-01 08:20:53.575 I/InputDispatcher( 2703): Delivering key to current input target: action: 1, channel 'PointerDevice-3970 (server)'
+01-01 08:20:53.605 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 24
+01-01 08:20:53.610 I/StatusBarPolicy( 2842): onDataActivity-D:0
+01-01 08:20:53.610 I/StatusBarPolicy( 2842): onDataActivity-D:0
+01-01 08:20:53.620 D/UnlockClock( 2703): GMT_update mRightNow.getTimeZone().getID() == Asia/Hong_Kong
+01-01 08:20:53.620 D/GlassLockScreenMusicWidget( 2703): onResume() isTopLayout=true, isMaxLayout=false
+01-01 08:20:53.620 D/GlassLockScreenMusicWidget( 2703): mHeightDifference = 65
+01-01 08:20:53.620 D/GlassLockScreenMusicWidget( 2703): onResume()show
+01-01 08:20:53.620 D/GlassLockScreenMusicWidget( 2703): setMaxLayout()
+01-01 08:20:53.620 D/GlassLockScreenMusicWidget( 2703): startTranslateAnimation()
+01-01 08:20:53.620 D/GlassLockScreenMusicWidget( 2703): resetMinTimer()
+01-01 08:20:53.620 D/GlassLockScreenMusicWidget( 2703): removeMinTimer()
+01-01 08:20:53.620 D/GlassLockScreenMusicWidget( 2703): addMinTimer()
+01-01 08:20:53.620 D/GlassLockScreenMissedEventWidget( 2703): onResume()
+01-01 08:20:53.620 D/GlassLockscreenInfo( 2703): onResume()
+01-01 08:20:53.625 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 27
+01-01 08:20:53.645 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 31
+01-01 08:20:53.655 D/PhoneUtils( 2862): updateRAFT() : FactoryMode : false
+01-01 08:20:53.665 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 34
+01-01 08:20:53.700 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 37
+01-01 08:20:53.705 E/GlassLockScreenMusicWidget( 2703): onReceive() : intent=Intent { act=android.intent.action.SCREEN_ON flg=0x40000000 }
+01-01 08:20:53.705 E/GlassLockScreenFMRadioWidget( 2703): onReceive() : intent action=android.intent.action.SCREEN_ON
+01-01 08:20:53.710 E/com.samsung.app( 3016): [MSC]>>> WeatherWidgetProvider.java:323 [0:0] onReceive()@@@ sec.android.intent.action.HOME_RESUME
+01-01 08:20:53.710 E/com.samsung.app( 3016): [MSC]>>> WidgetIdManager.java:39 [0:0] AccuWeatherClockWidgetID_Length
+01-01 08:20:53.710 E/com.samsung.app( 3016): [MSC]>>> WidgetIdManager.java:40 [0:0] getPrefIDs() : length = 0
+01-01 08:20:53.720 I/PhotoAppWidgetProvider( 3669): onReceive
+01-01 08:20:53.720 I/PhotoAppWidgetProvider( 3669): RestartSlideShow
+01-01 08:20:53.720 D/PhotoDatabaseHelper( 3669): getWidgetIdList query count : 0
+01-01 08:20:53.725 D/PhotoAppWidgetProvider( 3669): onReceive End
+01-01 08:20:53.725 D/DigitalClock( 3245): DigitalClockAppWidget.onReceive : ACTION_HOME_RESUME is called!!
+01-01 08:20:53.735 I/System.out( 3790): FMRADIO Sending OFF broadcast .... 
+01-01 08:20:53.735 E/GlassLockScreenFMRadioWidget( 2703): onReceive() : intent action=com.android.fm.player_lock.status.off
+01-01 08:20:53.750 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 41
+01-01 08:20:53.775 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 44
+01-01 08:20:53.780 D/Buddies--------------------------->( 3682): Service:OnReceive ACTION_HOME_RESUME called
+01-01 08:20:53.785 D/GlassLockScreenFMRadioWidget( 2703): handleMediaUpdate !! isPlaying = 0 isStop = 1 mIsFMPlayerPlaying = false
+01-01 08:20:53.790 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 48
+01-01 08:20:53.805 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 51
+01-01 08:20:53.820 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 55
+01-01 08:20:53.835 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 58
+01-01 08:20:53.855 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 62
+01-01 08:20:53.870 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 65
+01-01 08:20:53.885 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 69
+01-01 08:20:53.885 I/PowerManagerService( 2703): Light Animator Finished curIntValue=69
+01-01 08:20:54.005 I/HomeKeyDoubleClick( 2703): run() is called *****************************************************
+01-01 08:20:54.005 I/HomeKeyDoubleClick( 2703): isSingleClick() is called
+01-01 08:20:54.005 I/HomeKeyDoubleClick( 2703): list value =   (0) 0  (1) 1
+01-01 08:20:54.005 I/HomeKeyDoubleClick( 2703): in isSingleClick() true
+01-01 08:20:54.005 I/HomeKeyDoubleClick( 2703): -------------------------------single clicked
+01-01 08:20:54.005 I/HomeKeyDoubleClick( 2703): singleClickJob() is called.
+01-01 08:20:54.005 I/HomeKeyDoubleClick( 2703):   in singleClickJob(), mSentHomeDownToApp is false. Now call launchHomeFromHotKey()
+01-01 08:20:54.005 I/HomeKeyDoubleClick( 2703): launchHomeFromHotKey() is called.
+01-01 08:20:54.005 I/HomeKeyDoubleClick( 2703):   in launchHomeFromHotKey(), keyguard is on. do nothing.
+01-01 08:20:54.005 I/HomeKeyDoubleClick( 2703): reset() is called
+01-01 08:20:54.010 I/HomeKeyDoubleClick( 2703): in reset()  after reset, mPosted = false  mHomeActionList.size() = 0
+01-01 08:20:54.660 I/InputReader( 2703): dispatchTouch::touch event's action is 0, pending(waiting finished signal)=0
+01-01 08:20:54.660 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel '4085e980  (server)'
+01-01 08:20:54.660 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel 'PointerDevice-3970 (server)'
+01-01 08:20:54.674 E/lights  ( 2703): write_int: path /sys/class/leds/keyboard-backlight/brightness, value 0
+01-01 08:20:54.674 D/PowerManagerService( 2703): onSensorChanged: light value: 100
+01-01 08:20:54.674 D/PowerManagerService( 2703): lightSensorChangedLocked 100
+01-01 08:20:54.674 D/PowerManagerService( 2703): lcdValue 69
+01-01 08:20:54.674 D/PowerManagerService( 2703): buttonValue 0
+01-01 08:20:54.674 D/PowerManagerService( 2703): keyboardValue 0
+01-01 08:20:54.720 I/InputReader( 2703): dispatchTouch::touch event's action is 1, pending(waiting finished signal)=0
+01-01 08:20:54.720 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel '4085e980  (server)'
+01-01 08:20:54.720 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel 'PointerDevice-3970 (server)'
+01-01 08:20:54.725 E/AudioPolicyManager( 2587): getParamFromPolicy
+01-01 08:20:54.725 E/AudioPolicyManager( 2587): getSituationVolume
+01-01 08:20:54.725 I/AudioPolicyManager( 2587): getSituationVolume: isBTConnected:0 isHeadConnected:0
+01-01 08:20:54.730 I/AudioFlinger( 2587): start output streamType (0, 1) for 1
+01-01 08:20:54.755 D/LockscreenWallpaperUpdater( 2703): onResume()
+01-01 08:20:54.755 D/LockscreenWallpaperUpdater( 2703): get drawable (public) 
+01-01 08:20:54.755 D/LockscreenWallpaperUpdater( 2703): get drawable (keygurardupdatemonitor private get) 
+01-01 08:20:54.755 D/LockscreenWallpaperUpdater( 2703): drawable is null(keygurardupdatemonitor private get) 
+01-01 08:20:54.755 D/LockscreenWallpaperUpdater( 2703): set drawable
+01-01 08:20:54.755 D/LockscreenWallpaperUpdater( 2703): wallpaper file not exist 
+01-01 08:20:54.855 I/ALSAModule( 2587): Initialized ALSA PLAYBACK device hifi
+01-01 08:20:54.855 W/AudioFlinger( 2587): write blocked for 86 msecs, 35 delayed writes, thread 0x5e988
+01-01 08:20:54.930 W/WindowManager( 2703): Window Window{4085e980  paused=false} destroyed surface Surface(name=, identity=-1, mNativeSurface=0), session Session{40678a10 uid 1000}
+01-01 08:20:55.065 I/AudioFlinger( 2587): stop output streamType (0, 1) for 1
+01-01 08:20:55.780 I/InputReader( 2703): dispatchTouch::touch event's action is 0, pending(waiting finished signal)=0
+01-01 08:20:55.780 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel '408bf658 Keyguard (server)'
+01-01 08:20:55.780 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel 'PointerDevice-3970 (server)'
+01-01 08:20:55.780 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:20:55.780 D/GlassLockScreenMusicWidget( 2703): setControllerVisibility() : bIsVisible=false, mVisibleLayout=false
+01-01 08:20:55.780 D/GlassLockScreenMusicWidget( 2703): removeMinTimer()
+01-01 08:20:55.780 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:55.850 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:20:55.850 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:55.910 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:20:55.910 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:55.965 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:20:55.965 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:55.995 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:20:55.995 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:56.015 I/InputReader( 2703): dispatchTouch::touch event's action is 1, pending(waiting finished signal)=0
+01-01 08:20:56.015 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel '408bf658 Keyguard (server)'
+01-01 08:20:56.015 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel 'PointerDevice-3970 (server)'
+01-01 08:20:56.020 D/GlassLockScreenMusicWidget( 2703): setControllerVisibility() : bIsVisible=true, mVisibleLayout=false
+01-01 08:20:56.520 I/InputReader( 2703): dispatchTouch::touch event's action is 0, pending(waiting finished signal)=0
+01-01 08:20:56.520 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel '408bf658 Keyguard (server)'
+01-01 08:20:56.520 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel 'PointerDevice-3970 (server)'
+01-01 08:20:56.520 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:20:56.520 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:56.525 D/GlassLockScreenMusicWidget( 2703): setControllerVisibility() : bIsVisible=false, mVisibleLayout=false
+01-01 08:20:56.525 D/GlassLockScreenMusicWidget( 2703): removeMinTimer()
+01-01 08:20:56.600 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:20:56.600 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:56.660 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:20:56.660 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:56.675 E/BatteryService( 2703): TMU status = 0
+01-01 08:20:56.675 D/BatteryService( 2703): update start
+01-01 08:20:56.675 D/BatteryService( 2703): updateBattery level:7 scale:100 status:2 health:2 present:true voltage: 3788 temperature: 370 technology: Li-ion AC powered:false USB powered:true icon:17302233
+01-01 08:20:56.680 W/System.err( 3540): java.lang.NoSuchMethodException: isKeyguardLocked
+01-01 08:20:56.680 W/System.err( 3540): 	at java.lang.ClassCache.findMethodByName(ClassCache.java:247)
+01-01 08:20:56.680 W/System.err( 3540): 	at java.lang.Class.getMethod(Class.java:962)
+01-01 08:20:56.680 W/System.err( 3540): 	at com.qihoo360.mobilesafe.util.z.e(Unknown Source)
+01-01 08:20:56.680 W/System.err( 3540): 	at com.qihoo.appstore.notification.c.run(Unknown Source)
+01-01 08:20:56.680 W/System.err( 3540): 	at android.os.Handler.handleCallback(Handler.java:587)
+01-01 08:20:56.680 W/System.err( 3540): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+01-01 08:20:56.680 W/System.err( 3540): 	at android.os.Looper.loop(Looper.java:130)
+01-01 08:20:56.680 W/System.err( 3540): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+01-01 08:20:56.680 W/System.err( 3540): 	at java.lang.reflect.Method.invokeNative(Native Method)
+01-01 08:20:56.680 W/System.err( 3540): 	at java.lang.reflect.Method.invoke(Method.java:507)
+01-01 08:20:56.680 W/System.err( 3540): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+01-01 08:20:56.680 W/System.err( 3540): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+01-01 08:20:56.680 W/System.err( 3540): 	at dalvik.system.NativeStart.main(Native Method)
+01-01 08:20:56.685 D/PhoneUtils( 2862): updateRAFT() : FactoryMode : false
+01-01 08:20:56.690 I/StatusBarPolicy( 2842): BAT. S:2 H:2
+01-01 08:20:56.715 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:20:56.715 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:56.740 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:20:56.740 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:56.760 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:20:56.760 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:56.775 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:20:56.775 E/GlassLockScreen( 2703): Threshold is reached. goToUnlockScreen !!
+01-01 08:20:56.775 D/KeyguardViewMediator( 2703): keyguardDone(true)
+01-01 08:20:56.775 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:56.790 D/KeyguardViewMediator( 2703): handleKeyguardDone
+01-01 08:20:56.790 D/KeyguardViewMediator( 2703): handleHide
+01-01 08:20:56.790 D/KeyguardViewMediator( 2703): adjustUserActivityLocked mShowing: false mHidden: false
+01-01 08:20:56.790 D/PowerManagerService( 2703): enableUserActivity true
+01-01 08:20:56.790 D/StatusBarManagerService( 2703): manageDisableList what=0x0 pkg=android
+01-01 08:20:56.795 E/lights  ( 2703): write_int: path /sys/devices/virtual/misc/melfas_touchkey/brightness, value 2
+01-01 08:20:56.795 E/KeyguardViewMediator( 2703): Phone is boot completed. so can broadcast
+01-01 08:20:56.795 D/PowerManagerService( 2703): releaseWakeLockLocked flags=0x0 tag=keyguard myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:56.795 I/PowerManagerService( 2703): Ulight 7->3|0
+01-01 08:20:56.795 D/PowerManagerService( 2703): setLightBrightness : mButtonLight : 0
+01-01 08:20:56.800 I/Launcher( 2910): ACTION_USER_PRESENT
+01-01 08:20:56.800 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:20:56.800 E/lights  ( 2703): write_int: path /sys/devices/virtual/misc/melfas_touchkey/brightness, value 1
+01-01 08:20:56.800 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:56.800 I/PowerManagerService( 2703): Ulight 3->7|0
+01-01 08:20:56.800 D/PowerManagerService( 2703): setLightBrightness : mButtonLight : 69
+01-01 08:20:56.805 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp()
+01-01 08:20:56.805 V/OrientationDebug( 2703): in updateOrientationListenerLp(), Screen status=true, current orientation=1, SensorEnabled=true
+01-01 08:20:56.805 I/OrientationDebug( 2703): [pwm] needSensorRunningLp(), return true #4
+01-01 08:20:56.805 I/Launcher( 2910): onWindowFocusChanged(true)
+01-01 08:20:56.810 E/SamsungDecoderService>>>>>>>>( 2859): go into imStoreUdb
+01-01 08:20:56.810 V/SamsungDecoderService( 2859): go into storeUdbToFile
+01-01 08:20:56.810 I/        ( 2859): SamsungDecoderService.cpp::go into read Buffer
+01-01 08:20:56.810 I/        ( 2859): PinyinDecoderService: nativeImSetLanguage(): language = zh_CN
+01-01 08:20:56.810 D/XT9     ( 2859): >>>>>>>>>>>>go into GetUdbBuf simplified chinese>>>>>
+01-01 08:20:56.810 I/        ( 2859): im get udb buf len is 8192
+01-01 08:20:56.810 I/        ( 2859): SamsungDecoderService.cpp::go into read Buffer
+01-01 08:20:56.810 I/        ( 2859): PinyinDecoderService: nativeImSetLanguage(): language = zh_TW
+01-01 08:20:56.810 D/XT9     ( 2859): >>>>>>>>>>>>go into GetUdbBuf traditinal chinese>>>>>
+01-01 08:20:56.810 I/        ( 2859): im get udb buf len is 8192
+01-01 08:20:56.810 W/InputManagerService( 2703): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40bfd1b0
+01-01 08:20:56.820 I/dalvikvm( 2845): Total arena pages for JIT: 11
+01-01 08:20:56.835 E/MTPRx   ( 3661): In MtpReceiverandroid.intent.action.USER_PRESENT
+01-01 08:20:56.860 I/InputReader( 2703): dispatchTouch::touch event's action is 1, pending(waiting finished signal)=2
+01-01 08:20:56.865 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:20:56.865 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:56.870 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:20:56.870 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel '408bf658 Keyguard (server)'
+01-01 08:20:56.870 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:20:56.885 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel 'PointerDevice-3970 (server)'
+01-01 08:20:56.910 V/SettingsProvider( 2703): system <- value=0 name=phone_lock_status
+01-01 08:20:56.910 V/SettingsProvider( 2703): property: sys.settings_system_version=16
+01-01 08:20:56.910 V/SettingsProvider( 2703): notifying: content://settings/system/phone_lock_status
+01-01 08:20:56.910 W/MTPRx   ( 3661): Result for phone lock status in ACTION USER PRESENTtrue
+01-01 08:20:56.910 D/PowerManagerService( 2703): setScreenOffTimeouts mKeylightDelay=1500 mDimDelay=21500 mScreenOffDelay=7000 mDimScreen=true
+01-01 08:20:56.915 E/MTPRx   ( 3661): file kieswifi.dat is not found
+01-01 08:20:56.915 E/MTPRx   ( 3661): Battery charging. plugType = 2
+01-01 08:20:56.915 E/MTPRx   ( 3661): USB charging
+01-01 08:20:56.915 E/MTPRx   ( 3661): usb mode = 0
+01-01 08:20:56.915 E/MTPRx   ( 3661): usb debugging is enabled
+01-01 08:20:56.965 I/WindowManager( 2703):   CREATE SURFACE Surface(name=, identity=100, mNativeSurface=0) IN SESSION android.view.SurfaceSession@40c96ef0: pid=2845 format=-3 flags=0x0 / Window{408ec1c8  paused=false}
+01-01 08:20:57.070 D/PowerManagerService( 2703): onSensorChanged: light value: 100
+01-01 08:20:57.130 I/ALSAModule( 2587): Terminated ALSA PLAYBACK device hifi
+01-01 08:20:57.210 W/WindowManager( 2703): Window Window{408bf658 Keyguard paused=false} destroyed surface Surface(name=Keyguard, identity=-1, mNativeSurface=0), session Session{4077ff18 uid 1000}
+01-01 08:20:57.295 D/GlassLockScreenMusicWidget( 2703): onPause()
+01-01 08:20:57.295 D/GlassLockScreenMusicWidget( 2703): stopMarguee()
+01-01 08:20:57.295 D/GlassLockScreenMissedEventWidget( 2703): onPause()
+01-01 08:20:57.295 D/GlassLockScreenMusicWidget( 2703): cleanUp()
+01-01 08:20:57.295 D/GlassLockScreenMusicWidget( 2703): stopMarguee()
+01-01 08:20:57.295 D/GlassLockScreenMissedEventWidget( 2703): cleanUp()
+01-01 08:20:57.295 D/LockscreenWallpaperUpdater( 2703): cleanUp()
+01-01 08:20:57.295 D/GlassLockscreenInfo( 2703): cleanUp()
+01-01 08:20:57.295 D/LockscreenWallpaperUpdater( 2703): cleanUp()
+01-01 08:20:58.275 D/PowerManagerService( 2703): onSensorChanged: light value: 100
+01-01 08:20:58.295 D/GlassLockScreenMusicWidget( 2703): handleStopMarquee()
+01-01 08:20:58.360 W/PowerManagerService( 2703): Timer 0x7->0x3|0x7
+01-01 08:20:59.690 W/System.err( 3540): java.lang.NoSuchMethodException: isKeyguardLocked
+01-01 08:20:59.690 W/System.err( 3540): 	at java.lang.ClassCache.findMethodByName(ClassCache.java:247)
+01-01 08:20:59.690 W/System.err( 3540): 	at java.lang.Class.getMethod(Class.java:962)
+01-01 08:20:59.690 W/System.err( 3540): 	at com.qihoo360.mobilesafe.util.z.e(Unknown Source)
+01-01 08:20:59.690 W/System.err( 3540): 	at com.qihoo.appstore.notification.c.run(Unknown Source)
+01-01 08:20:59.690 W/System.err( 3540): 	at android.os.Handler.handleCallback(Handler.java:587)
+01-01 08:20:59.690 W/System.err( 3540): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+01-01 08:20:59.690 W/System.err( 3540): 	at android.os.Looper.loop(Looper.java:130)
+01-01 08:20:59.690 W/System.err( 3540): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+01-01 08:20:59.690 W/System.err( 3540): 	at java.lang.reflect.Method.invokeNative(Native Method)
+01-01 08:20:59.690 W/System.err( 3540): 	at java.lang.reflect.Method.invoke(Method.java:507)
+01-01 08:20:59.690 W/System.err( 3540): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+01-01 08:20:59.695 W/System.err( 3540): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+01-01 08:20:59.695 W/System.err( 3540): 	at dalvik.system.NativeStart.main(Native Method)
+01-01 08:21:01.870 D/KeyguardViewMediator( 2703): handleTimeout
+01-01 08:21:01.875 E/lights  ( 2703): write_int: path /sys/devices/virtual/misc/melfas_touchkey/brightness, value 2
+01-01 08:21:01.875 D/PowerManagerService( 2703): releaseWakeLockLocked flags=0x0 tag=keyguard myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:01.875 I/PowerManagerService( 2703): Ulight 7->3|0
+01-01 08:21:01.875 D/PowerManagerService( 2703): setLightBrightness : mButtonLight : 0
+01-01 08:21:07.685 D/dalvikvm( 3110): GC_EXPLICIT freed 114K, 43% free 4180K/7239K, external 0K/0K, paused 109ms
+01-01 08:21:12.670 D/dalvikvm( 3135): GC_EXPLICIT freed 4K, 50% free 2730K/5379K, external 0K/0K, paused 89ms
+01-01 08:21:17.700 D/dalvikvm( 3515): GC_EXPLICIT freed 5K, 49% free 2792K/5379K, external 0K/0K, paused 110ms
+01-01 08:21:19.880 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 66
+01-01 08:21:19.880 W/PowerManagerService( 2703): Timer 0x3->0x1|0x0
+01-01 08:21:19.880 I/PowerManagerService( 2703): Ulight 3->1|0
+01-01 08:21:19.894 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 64
+01-01 08:21:19.915 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 61
+01-01 08:21:19.930 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 59
+01-01 08:21:19.945 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 57
+01-01 08:21:19.965 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 55
+01-01 08:21:19.980 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 52
+01-01 08:21:19.995 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 50
+01-01 08:21:20.010 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 48
+01-01 08:21:20.025 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 45
+01-01 08:21:20.045 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 43
+01-01 08:21:20.060 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 41
+01-01 08:21:20.075 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 38
+01-01 08:21:20.095 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 36
+01-01 08:21:20.110 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 34
+01-01 08:21:20.125 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 31
+01-01 08:21:20.140 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 29
+01-01 08:21:20.155 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 27
+01-01 08:21:20.175 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 24
+01-01 08:21:20.190 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 22
+01-01 08:21:20.205 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 20
+01-01 08:21:20.210 I/PowerManagerService( 2703): Light Animator Finished curIntValue=20
+01-01 08:21:25.795 D/dalvikvm( 3606): GC_EXPLICIT freed 16K, 49% free 2826K/5447K, external 0K/0K, paused 81ms
+01-01 08:21:26.890 W/PowerManagerService( 2703): Timer 0x1->0x0|0x0
+01-01 08:21:26.890 D/PowerManagerService( 2703): Screen__Off : Timeout
+01-01 08:21:26.890 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 17
+01-01 08:21:26.890 I/PowerManagerService( 2703): Ulight 1->0|0
+01-01 08:21:26.905 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 15
+01-01 08:21:26.920 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 12
+01-01 08:21:26.935 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 10
+01-01 08:21:26.955 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 7
+01-01 08:21:26.970 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 5
+01-01 08:21:26.985 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 2
+01-01 08:21:27.005 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 0
+01-01 08:21:27.005 E/power   ( 2703): *** set_screen_state 0
+01-01 08:21:27.005 I/PowerManagerService( 2703): Light Animator Finished curIntValue=0
+01-01 08:21:27.010 D/SensorManager( 2703): unregisterListener:: disable all sensors for this listener,  listener = com.android.server.PowerManagerService$13@4052a230
+01-01 08:21:27.010 E/lights  ( 2703): write_int: path /sys/devices/virtual/misc/melfas_touchkey/brightness, value 2
+01-01 08:21:27.010 E/lights  ( 2703): write_int: path /sys/class/leds/keyboard-backlight/brightness, value 0
+01-01 08:21:27.010 D/PowerManagerService( 2703): enableLightSensor false
+01-01 08:21:27.010 W/PowerManagerService( 2703): CurLockF mPS:0 mUS=0
+01-01 08:21:27.010 W/PowerManagerService( 2703): type=PARTIAL_WAKE_LOCK              'sleep_broadcast' active (mS=0)  activeT=4
+01-01 08:21:27.010 W/PowerManagerService( 2703): mPokeLocks.size=0:
+01-01 08:21:27.010 D/PowerManagerService( 2703): sendNotificationLocked on=false
+01-01 08:21:27.015 D/KeyguardViewMediator( 2703): onScreenTurnedOff(3)
+01-01 08:21:27.015 D/KeyguardViewMediator( 2703): setting alarm to turn off keyguard, seq = 6
+01-01 08:21:27.015 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp()
+01-01 08:21:27.015 V/OrientationDebug( 2703): in updateOrientationListenerLp(), Screen status=false, current orientation=1, SensorEnabled=true
+01-01 08:21:27.015 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp(), now call mOrientationListener.disable(), and mOrientationSensorEnabled = false #2
+01-01 08:21:27.015 I/OrientationDebug( 2703): [WindowOrientationListener] in disable(), now call SensorManager.unregisterListener()
+01-01 08:21:27.015 D/SensorManager( 2703): unregisterListener:: disable all sensors for this listener,  listener = android.view.WindowOrientationListener$SensorEventListenerImpl@4087f840
+01-01 08:21:27.015 D/PowerManagerService( 2703): mNotificationTask : off
+01-01 08:21:27.015 V/WindowManager( 2703): Setting event dispatching to false
+01-01 08:21:27.030 D/SurfaceFlinger( 2703): About to give-up screen, flinger = 0x12ffe8
+01-01 08:21:27.170 W/WindowManager( 2703): Window Window{408ec1c8  paused=false} destroyed surface Surface(name=, identity=-1, mNativeSurface=0), session Session{40c966a0 uid 10104}
+01-01 08:21:27.185 I/StatusBarPolicy( 2842): onDataActivity-D:0
+01-01 08:21:27.185 I/StatusBarPolicy( 2842): onDataActivity-D:0
+01-01 08:21:27.195 D/PhoneUtils( 2862): updateRAFT() : FactoryMode : false
+01-01 08:21:27.200 D/dalvikvm( 2910): GC_EXTERNAL_ALLOC freed 722K, 48% free 3568K/6791K, external 9183K/9249K, paused 176ms
+01-01 08:21:27.210 D/GLSurfaceViewGroup( 2910): Skipped drawing due to suspendDrawingUntilResume()
+01-01 08:21:27.210 I/Launcher( 2910): ACTION_SCREEN_OFF
+01-01 08:21:27.285 V/SettingsProvider( 2703): system <- value=1 name=phone_lock_status
+01-01 08:21:27.285 V/SettingsProvider( 2703): property: sys.settings_system_version=17
+01-01 08:21:27.285 V/SettingsProvider( 2703): notifying: content://settings/system/phone_lock_status
+01-01 08:21:27.290 D/PowerManagerService( 2703): setScreenOffTimeouts mKeylightDelay=1500 mDimDelay=21500 mScreenOffDelay=7000 mDimScreen=true
+01-01 08:21:27.345 E/com.samsung.app( 3016): [MSC]>>> WeatherWidgetProvider.java:323 [0:0] onReceive()@@@ sec.android.intent.action.HOME_PAUSE
+01-01 08:21:27.345 E/com.samsung.app( 3016): [MSC]>>> WidgetIdManager.java:39 [0:0] AccuWeatherClockWidgetID_Length
+01-01 08:21:27.345 E/com.samsung.app( 3016): [MSC]>>> WidgetIdManager.java:40 [0:0] getPrefIDs() : length = 0
+01-01 08:21:27.345 E/com.samsung.app( 3016): [MSC]>>> WeatherWidgetProvider.java:1592 [0:0] disable handler
+01-01 08:21:27.365 I/PhotoAppWidgetProvider( 3669): onReceive
+01-01 08:21:27.365 I/PhotoAppWidgetProvider( 3669): PauseSlideShow
+01-01 08:21:27.365 D/PhotoAppWidgetProvider( 3669): onReceive End
+01-01 08:21:27.385 D/CalendarAppWidgetProviderAgenda( 3515): ACTION_HOME_PAUSE: false
+01-01 08:21:27.430 D/dalvikvm( 2703): GC_CONCURRENT freed 1606K, 43% free 7456K/12935K, external 5908K/7378K, paused 3ms+5ms
+01-01 08:21:32.025 D/KeyguardViewMediator( 2703): doKeyguard: showing the lock screen
+01-01 08:21:32.025 D/KeyguardViewMediator( 2703): showLocked
+01-01 08:21:32.029 D/KeyguardViewMediator( 2703): handleShow
+01-01 08:21:32.034 D/LockPatternKeyguardView( 2703): Face RecongnitionValue = 0
+01-01 08:21:32.050 D/LockscreenWallpaperUpdater( 2703): add lockscreenwallpaper
+01-01 08:21:32.120 D/GlassLockScreenMusicWidget( 2703): Controller Initiation Running!!
+01-01 08:21:32.120 D/GlassLockScreenMusicWidget( 2703): at init() send broadcast
+01-01 08:21:32.120 D/GlassLockScreenMusicWidget( 2703): resetMinTimer()
+01-01 08:21:32.120 D/GlassLockScreenMusicWidget( 2703): removeMinTimer()
+01-01 08:21:32.120 D/GlassLockScreenMusicWidget( 2703): addMinTimer()
+01-01 08:21:32.200 D/dalvikvm( 2703): GC_EXTERNAL_ALLOC freed 168K, 44% free 7360K/12935K, external 2034K/2035K, paused 72ms
+01-01 08:21:32.220 I/System.out( 3790): FMRADIO Sending OFF broadcast .... 
+01-01 08:21:32.220 E/GlassLockScreenFMRadioWidget( 2703): onReceive() : intent action=com.android.fm.player_lock.status.off
+01-01 08:21:32.285 D/dalvikvm( 2703): GC_EXTERNAL_ALLOC freed 21K, 44% free 7367K/12935K, external 2481K/2562K, paused 47ms
+01-01 08:21:32.300 D/GlassLockScreenMissedEventWidget( 2703): Controller Initiation Running!!
+01-01 08:21:32.355 D/dalvikvm( 2703): GC_EXTERNAL_ALLOC freed 11K, 44% free 7373K/12935K, external 3100K/3209K, paused 47ms
+01-01 08:21:32.365 D/UnlockClock( 2703): GMT_update mRightNow.getTimeZone().getID() == Asia/Hong_Kong
+01-01 08:21:32.370 D/GlassLockscreenInfo( 2703): init
+01-01 08:21:32.370 D/GlassLockScreen( 2703): CLOCK_POSITION from Setting Value = 2
+01-01 08:21:32.420 D/dalvikvm( 2703): GC_EXTERNAL_ALLOC freed 15K, 43% free 7393K/12935K, external 3046K/3509K, paused 47ms
+01-01 08:21:32.425 D/GlassLockScreenFMRadioWidget( 2703): getIsFMPlayerPlaying() : mIsFMPlayerPlaying=false
+01-01 08:21:32.425 D/GlassLockScreen( 2703):  is FM Playing  = false
+01-01 08:21:32.425 D/GlassLockScreenFMRadioWidget( 2703): getIsFMPlayerPlaying() : mIsFMPlayerPlaying=false
+01-01 08:21:32.445 D/LockscreenWallpaperUpdater( 2703): add lockscreenwallpaper
+01-01 08:21:32.450 D/KeyguardViewMediator( 2703): adjustUserActivityLocked mShowing: true mHidden: false
+01-01 08:21:32.450 D/PowerManagerService( 2703): enableUserActivity false
+01-01 08:21:32.450 D/StatusBarManagerService( 2703): manageDisableList what=0x1 pkg=android
+01-01 08:21:32.455 D/GlassLockScreenFMRadioWidget( 2703): handleMediaUpdate !! isPlaying = 0 isStop = 1 mIsFMPlayerPlaying = false
+01-01 08:21:32.460 D/GLSurfaceViewGroup( 2910): Skipped drawing due to suspendDrawingUntilResume()
+01-01 08:21:32.475 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp()
+01-01 08:21:32.475 V/OrientationDebug( 2703): in updateOrientationListenerLp(), Screen status=false, current orientation=5, SensorEnabled=false
+01-01 08:21:32.475 I/WindowManager( 2703):   CREATE SURFACE Surface(name=Keyguard, identity=101, mNativeSurface=0) IN SESSION android.view.SurfaceSession@408cc2b0: pid=2703 format=-3 flags=0x0 / Window{408bf658 Keyguard paused=false}
+01-01 08:21:32.480 D/LockscreenWallpaperUpdater( 2703): onResume()
+01-01 08:21:32.480 D/LockscreenWallpaperUpdater( 2703): get drawable (public) 
+01-01 08:21:32.480 D/LockscreenWallpaperUpdater( 2703): get drawable (keygurardupdatemonitor private get) 
+01-01 08:21:32.480 D/LockscreenWallpaperUpdater( 2703): drawable is null(keygurardupdatemonitor private get) 
+01-01 08:21:32.480 D/LockscreenWallpaperUpdater( 2703): set drawable
+01-01 08:21:32.480 D/LockscreenWallpaperUpdater( 2703): wallpaper file not exist 
+01-01 08:21:32.480 W/WindowManager( 2703): Layout repeat skipped after too many iterations
+01-01 08:21:32.480 W/WindowManager( 2703): Layout repeat skipped after too many iterations
+01-01 08:21:32.480 W/WindowManager( 2703): Layout repeat skipped after too many iterations
+01-01 08:21:32.480 W/WindowManager( 2703): Animation repeat aborted after too many iterations
+01-01 08:21:32.530 D/dalvikvm( 2703): GC_EXTERNAL_ALLOC freed 36K, 43% free 7436K/12935K, external 4440K/5085K, paused 48ms
+01-01 08:21:32.610 I/Launcher( 2910): onWindowFocusChanged(false)
+01-01 08:21:32.610 D/GLSurfaceViewGroup( 2910): Skipped drawing due to suspendDrawingUntilResume()
+01-01 08:21:35.619 D/GlassLockScreenMusicWidget( 2703): setMinLayout()
+01-01 08:21:35.619 D/GlassLockScreenMusicWidget( 2703): startTranslateAnimation()
+01-01 08:21:37.035 D/BatteryService( 2703): update start
+01-01 08:21:37.040 E/BatteryService( 2703): TMU status = 0
+01-01 08:21:37.045 D/BatteryService( 2703): updateBattery level:7 scale:100 status:2 health:2 present:true voltage: 3780 temperature: 370 technology: Li-ion AC powered:false USB powered:true icon:17302233
+01-01 08:21:37.115 D/PhoneUtils( 2862): updateRAFT() : FactoryMode : false
+01-01 08:21:37.130 I/StatusBarPolicy( 2842): BAT. S:2 H:2
+01-01 08:21:39.459 W/PowerManagerService( 2703): Timer 0x0->0x0|0x0
+01-01 08:21:42.220 D/dalvikvm( 3650): GC_EXPLICIT freed 7K, 49% free 2757K/5379K, external 0K/0K, paused 57ms
+01-01 08:21:43.029 D/InputReader( 2703): Input event: value=1
+01-01 08:21:43.029 I/ScreenCaptureAction( 2703): isHomeKeyPressed(), return value = false
+01-01 08:21:43.029 D/KeyguardViewMediator( 2703): onWakeKeyWhenKeyguardShowing(26)
+01-01 08:21:43.029 D/KeyguardViewMediator( 2703): wakeWhenReadyLocked(26)
+01-01 08:21:43.029 D/KeyguardViewMediator( 2703): handleWakeWhenReady(26)
+01-01 08:21:43.029 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:43.029 D/PowerManagerService( 2703): reactivateScreenLocksLocked mProxIgnoredBecauseScreenTurnedOff=false
+01-01 08:21:43.029 D/PowerManagerService( 2703): Screen__On : acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:43.029 I/PowerManagerService( 2703): Ulight 0->7|0
+01-01 08:21:43.034 E/lights  ( 2703): write_int: path /sys/devices/virtual/misc/melfas_touchkey/brightness, value 1
+01-01 08:21:43.034 E/power   ( 2703): *** set_screen_state 1
+01-01 08:21:43.034 D/SensorManager( 2703): registerListener :: handle = 3  name= CM3663 Light Sensor delay= 200000 Listener= com.android.server.PowerManagerService$13@4052a230
+01-01 08:21:43.034 D/PowerManagerService( 2703): setLightBrightness : mButtonLight : 69
+01-01 08:21:43.034 D/PowerManagerService( 2703): enableLightSensor true
+01-01 08:21:43.050 D/PowerManagerService( 2703): sendNotificationLocked on=true
+01-01 08:21:43.055 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 3
+01-01 08:21:43.055 D/KeyguardViewMediator( 2703): onScreenTurnedOn, seq = 7
+01-01 08:21:43.055 D/KeyguardViewMediator( 2703): notifyScreenOnLocked
+01-01 08:21:43.055 D/PowerManagerService( 2703): mNotificationTask : on
+01-01 08:21:43.060 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp()
+01-01 08:21:43.060 V/OrientationDebug( 2703): in updateOrientationListenerLp(), Screen status=true, current orientation=5, SensorEnabled=false
+01-01 08:21:43.060 I/OrientationDebug( 2703): [pwm] needSensorRunningLp(), return true #4
+01-01 08:21:43.060 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp(), now call mOrientationListener.enable(), and mOrientationSensorEnabled = true #1
+01-01 08:21:43.060 I/OrientationDebug( 2703): [WindowOrientationListener] in enable(), now call SensorManager.registerListener()
+01-01 08:21:43.060 D/SensorManager( 2703): registerListener :: handle = 0  name= K3DH Acceleration Sensor delay= 200000 Listener= android.view.WindowOrientationListener$SensorEventListenerImpl@4087f840
+01-01 08:21:43.060 V/WindowManager( 2703): Setting event dispatching to true
+01-01 08:21:43.070 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 6
+01-01 08:21:43.075 D/KeyguardViewMediator( 2703): handleNotifyScreenOn
+01-01 08:21:43.075 D/LockPatternKeyguardView( 2703): onScreenTurnedOn()
+01-01 08:21:43.075 D/LockPatternKeyguardView( 2703): mLockScreen instanceof GlassLockScreen
+01-01 08:21:43.075 D/GlassLockScreen( 2703): setScreenOn() mGlassLockScreenMusicWidget=com.android.internal.policy.impl.GlassLockScreenMusicWidget@408b1b48
+01-01 08:21:43.075 D/LockscreenWallpaperUpdater( 2703): onResume()
+01-01 08:21:43.075 D/LockscreenWallpaperUpdater( 2703): get drawable (public) 
+01-01 08:21:43.075 D/LockscreenWallpaperUpdater( 2703): get drawable (keygurardupdatemonitor private get) 
+01-01 08:21:43.075 D/LockscreenWallpaperUpdater( 2703): drawable is null(keygurardupdatemonitor private get) 
+01-01 08:21:43.075 D/LockscreenWallpaperUpdater( 2703): set drawable
+01-01 08:21:43.075 D/LockscreenWallpaperUpdater( 2703): wallpaper file not exist 
+01-01 08:21:43.080 D/UnlockClock( 2703): GMT_update mRightNow.getTimeZone().getID() == Asia/Hong_Kong
+01-01 08:21:43.085 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 10
+01-01 08:21:43.105 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 13
+01-01 08:21:43.115 I/Launcher( 2910): onResume(). mIsNewIntent : false screenOff: true
+01-01 08:21:43.120 D/Launcher( 2910): It's image wallpaper. suggestDesiredDimensions(-1,-1)
+01-01 08:21:43.120 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 17
+01-01 08:21:43.140 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 20
+01-01 08:21:43.140 D/GlassLockScreenMusicWidget( 2703): onResume() isTopLayout=true, isMaxLayout=false
+01-01 08:21:43.140 D/GlassLockScreenMusicWidget( 2703): mHeightDifference = 65
+01-01 08:21:43.140 D/GlassLockScreenMusicWidget( 2703): onResume()show
+01-01 08:21:43.140 D/GlassLockScreenMusicWidget( 2703): setMaxLayout()
+01-01 08:21:43.140 D/GlassLockScreenMusicWidget( 2703): startTranslateAnimation()
+01-01 08:21:43.140 D/GlassLockScreenMusicWidget( 2703): resetMinTimer()
+01-01 08:21:43.140 D/GlassLockScreenMusicWidget( 2703): removeMinTimer()
+01-01 08:21:43.145 D/GlassLockScreenMusicWidget( 2703): addMinTimer()
+01-01 08:21:43.145 D/GlassLockScreenMissedEventWidget( 2703): onResume()
+01-01 08:21:43.145 D/GlassLockscreenInfo( 2703): onResume()
+01-01 08:21:43.155 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 24
+01-01 08:21:43.170 D/InputReader( 2703): Input event: value=0
+01-01 08:21:43.170 I/ScreenCaptureAction( 2703): isHomeKeyPressed(), return value = false
+01-01 08:21:43.220 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 27
+01-01 08:21:43.255 D/SurfaceFlinger( 2703): Screen about to return, flinger = 0x12ffe8
+01-01 08:21:43.260 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 31
+01-01 08:21:43.265 I/StatusBarPolicy( 2842): onDataActivity-D:0
+01-01 08:21:43.265 I/StatusBarPolicy( 2842): onDataActivity-D:0
+01-01 08:21:43.295 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 34
+01-01 08:21:43.300 D/PhoneUtils( 2862): updateRAFT() : FactoryMode : false
+01-01 08:21:43.310 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 37
+01-01 08:21:43.365 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 41
+01-01 08:21:43.365 E/GlassLockScreenMusicWidget( 2703): onReceive() : intent=Intent { act=android.intent.action.SCREEN_ON flg=0x40000000 }
+01-01 08:21:43.365 E/GlassLockScreenFMRadioWidget( 2703): onReceive() : intent action=android.intent.action.SCREEN_ON
+01-01 08:21:43.370 I/System.out( 3790): FMRADIO Sending OFF broadcast .... 
+01-01 08:21:43.370 E/com.samsung.app( 3016): [MSC]>>> WeatherWidgetProvider.java:323 [0:0] onReceive()@@@ sec.android.intent.action.HOME_RESUME
+01-01 08:21:43.370 E/com.samsung.app( 3016): [MSC]>>> WidgetIdManager.java:39 [0:0] AccuWeatherClockWidgetID_Length
+01-01 08:21:43.370 E/com.samsung.app( 3016): [MSC]>>> WidgetIdManager.java:40 [0:0] getPrefIDs() : length = 0
+01-01 08:21:43.375 E/GlassLockScreenFMRadioWidget( 2703): onReceive() : intent action=com.android.fm.player_lock.status.off
+01-01 08:21:43.375 D/GlassLockScreenFMRadioWidget( 2703): handleMediaUpdate !! isPlaying = 0 isStop = 1 mIsFMPlayerPlaying = false
+01-01 08:21:43.380 I/PhotoAppWidgetProvider( 3669): onReceive
+01-01 08:21:43.380 I/PhotoAppWidgetProvider( 3669): RestartSlideShow
+01-01 08:21:43.385 D/PhotoDatabaseHelper( 3669): getWidgetIdList query count : 0
+01-01 08:21:43.385 D/PhotoAppWidgetProvider( 3669): onReceive End
+01-01 08:21:43.390 D/DigitalClock( 3245): DigitalClockAppWidget.onReceive : ACTION_HOME_RESUME is called!!
+01-01 08:21:43.400 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 44
+01-01 08:21:43.415 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 48
+01-01 08:21:43.430 D/Buddies--------------------------->( 3682): Service:OnReceive ACTION_HOME_RESUME called
+01-01 08:21:43.435 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 51
+01-01 08:21:43.450 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 55
+01-01 08:21:43.465 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 58
+01-01 08:21:43.480 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 62
+01-01 08:21:43.500 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 65
+01-01 08:21:43.515 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 69
+01-01 08:21:43.515 I/PowerManagerService( 2703): Light Animator Finished curIntValue=69
+01-01 08:21:44.065 I/WindowOrientationListener( 2703): orientation = 39.15719 Tilt = 40.854572 -- 3 ,  6 ,  6
+01-01 08:21:44.125 I/InputReader( 2703): dispatchTouch::touch event's action is 0, pending(waiting finished signal)=0
+01-01 08:21:44.140 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel '408bf658 Keyguard (server)'
+01-01 08:21:44.140 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel 'PointerDevice-3970 (server)'
+01-01 08:21:44.140 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:44.140 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:44.145 D/GlassLockScreenMusicWidget( 2703): setControllerVisibility() : bIsVisible=false, mVisibleLayout=false
+01-01 08:21:44.145 D/GlassLockScreenMusicWidget( 2703): removeMinTimer()
+01-01 08:21:44.270 I/WindowOrientationListener( 2703): orientation 28.236916 gives new rotation = 0
+01-01 08:21:44.270 I/OrientationDebug( 2703): [pwm] in MyOrientationListener.onOrientationChanged() rotation=0  mFancyRotationAnimation=0   now call mWindowManager.setRotation()
+01-01 08:21:44.270 I/OrientationDebug( 2703): [wms] in setRotation() rotation=0 alwaysSendConfiguration=false animFlags=0
+01-01 08:21:44.270 I/OrientationDebug( 2703): [wms] in setRotation() now call setRotationUnchecked()
+01-01 08:21:44.325 W/GlassLockScreen( 2703): mStartLockAnimation()
+01-01 08:21:44.330 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:44.330 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:44.355 I/InputReader( 2703): dispatchTouch::touch event's action is 1, pending(waiting finished signal)=2
+01-01 08:21:44.395 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:44.395 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel '408bf658 Keyguard (server)'
+01-01 08:21:44.395 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel 'PointerDevice-3970 (server)'
+01-01 08:21:44.395 D/GlassLockScreenMusicWidget( 2703): setControllerVisibility() : bIsVisible=true, mVisibleLayout=false
+01-01 08:21:44.395 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:44.450 E/lights  ( 2703): write_int: path /sys/class/leds/keyboard-backlight/brightness, value 0
+01-01 08:21:44.450 D/PowerManagerService( 2703): onSensorChanged: light value: 100
+01-01 08:21:44.450 D/PowerManagerService( 2703): lightSensorChangedLocked 100
+01-01 08:21:44.450 D/PowerManagerService( 2703): lcdValue 69
+01-01 08:21:44.450 D/PowerManagerService( 2703): buttonValue 0
+01-01 08:21:44.450 D/PowerManagerService( 2703): keyboardValue 0
+01-01 08:21:45.070 I/WindowOrientationListener( 2703): orientation = 22.422255 Tilt = 39.285633 -- 2 ,  6 ,  6
+01-01 08:21:45.109 I/InputReader( 2703): dispatchTouch::touch event's action is 0, pending(waiting finished signal)=0
+01-01 08:21:45.120 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel '408bf658 Keyguard (server)'
+01-01 08:21:45.120 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel 'PointerDevice-3970 (server)'
+01-01 08:21:45.125 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.125 D/GlassLockScreenMusicWidget( 2703): setControllerVisibility() : bIsVisible=false, mVisibleLayout=false
+01-01 08:21:45.125 D/GlassLockScreenMusicWidget( 2703): removeMinTimer()
+01-01 08:21:45.125 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.245 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.245 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.370 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.370 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.435 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.435 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.455 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.455 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.475 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.475 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.490 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.490 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.505 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.505 E/GlassLockScreen( 2703): Threshold is reached. goToUnlockScreen !!
+01-01 08:21:45.505 D/KeyguardViewMediator( 2703): keyguardDone(true)
+01-01 08:21:45.505 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.520 D/KeyguardViewMediator( 2703): handleKeyguardDone
+01-01 08:21:45.520 D/KeyguardViewMediator( 2703): handleHide
+01-01 08:21:45.520 D/KeyguardViewMediator( 2703): adjustUserActivityLocked mShowing: false mHidden: false
+01-01 08:21:45.520 D/PowerManagerService( 2703): enableUserActivity true
+01-01 08:21:45.520 D/StatusBarManagerService( 2703): manageDisableList what=0x0 pkg=android
+01-01 08:21:45.525 E/lights  ( 2703): write_int: path /sys/devices/virtual/misc/melfas_touchkey/brightness, value 2
+01-01 08:21:45.525 E/KeyguardViewMediator( 2703): Phone is boot completed. so can broadcast
+01-01 08:21:45.525 D/PowerManagerService( 2703): releaseWakeLockLocked flags=0x0 tag=keyguard myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.525 I/PowerManagerService( 2703): Ulight 7->3|0
+01-01 08:21:45.525 D/PowerManagerService( 2703): setLightBrightness : mButtonLight : 0
+01-01 08:21:45.530 I/Launcher( 2910): ACTION_USER_PRESENT
+01-01 08:21:45.540 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp()
+01-01 08:21:45.545 V/OrientationDebug( 2703): in updateOrientationListenerLp(), Screen status=true, current orientation=1, SensorEnabled=true
+01-01 08:21:45.545 I/OrientationDebug( 2703): [pwm] needSensorRunningLp(), return true #4
+01-01 08:21:45.560 I/Launcher( 2910): onWindowFocusChanged(true)
+01-01 08:21:45.565 E/MTPRx   ( 3661): In MtpReceiverandroid.intent.action.USER_PRESENT
+01-01 08:21:45.565 E/SamsungDecoderService>>>>>>>>( 2859): go into imStoreUdb
+01-01 08:21:45.565 V/SamsungDecoderService( 2859): go into storeUdbToFile
+01-01 08:21:45.565 I/        ( 2859): SamsungDecoderService.cpp::go into read Buffer
+01-01 08:21:45.565 I/        ( 2859): PinyinDecoderService: nativeImSetLanguage(): language = zh_CN
+01-01 08:21:45.565 D/XT9     ( 2859): >>>>>>>>>>>>go into GetUdbBuf simplified chinese>>>>>
+01-01 08:21:45.565 I/        ( 2859): im get udb buf len is 8192
+01-01 08:21:45.565 W/InputManagerService( 2703): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@40ca4b00
+01-01 08:21:45.570 I/        ( 2859): SamsungDecoderService.cpp::go into read Buffer
+01-01 08:21:45.570 I/        ( 2859): PinyinDecoderService: nativeImSetLanguage(): language = zh_TW
+01-01 08:21:45.570 D/XT9     ( 2859): >>>>>>>>>>>>go into GetUdbBuf traditinal chinese>>>>>
+01-01 08:21:45.570 I/        ( 2859): im get udb buf len is 8192
+01-01 08:21:45.590 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.590 E/lights  ( 2703): write_int: path /sys/devices/virtual/misc/melfas_touchkey/brightness, value 1
+01-01 08:21:45.590 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.590 I/PowerManagerService( 2703): Ulight 3->7|0
+01-01 08:21:45.590 D/PowerManagerService( 2703): setLightBrightness : mButtonLight : 69
+01-01 08:21:45.615 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.615 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.635 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.635 V/SettingsProvider( 2703): system <- value=0 name=phone_lock_status
+01-01 08:21:45.635 V/SettingsProvider( 2703): property: sys.settings_system_version=18
+01-01 08:21:45.635 V/SettingsProvider( 2703): notifying: content://settings/system/phone_lock_status
+01-01 08:21:45.635 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.640 W/MTPRx   ( 3661): Result for phone lock status in ACTION USER PRESENTtrue
+01-01 08:21:45.640 E/MTPRx   ( 3661): file kieswifi.dat is not found
+01-01 08:21:45.640 E/MTPRx   ( 3661): Battery charging. plugType = 2
+01-01 08:21:45.640 E/MTPRx   ( 3661): USB charging
+01-01 08:21:45.640 D/PowerManagerService( 2703): setScreenOffTimeouts mKeylightDelay=1500 mDimDelay=21500 mScreenOffDelay=7000 mDimScreen=true
+01-01 08:21:45.645 E/MTPRx   ( 3661): usb mode = 0
+01-01 08:21:45.645 E/MTPRx   ( 3661): usb debugging is enabled
+01-01 08:21:45.665 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.665 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.670 I/WindowManager( 2703):   CREATE SURFACE Surface(name=, identity=102, mNativeSurface=0) IN SESSION android.view.SurfaceSession@40c96ef0: pid=2845 format=-3 flags=0x0 / Window{4085e980  paused=false}
+01-01 08:21:45.680 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.680 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.705 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.705 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.740 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.740 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.765 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.765 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.785 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.785 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.810 D/KeyguardViewMediator( 2703): pokeWakelock(5000)
+01-01 08:21:45.810 D/PowerManagerService( 2703): acquireWakeLock flags=0x1000001a tag=keyguard uid=1000 pid=2703   myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:45.850 I/InputReader( 2703): dispatchTouch::touch event's action is 1, pending(waiting finished signal)=0
+01-01 08:21:45.850 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel '408bf658 Keyguard (server)'
+01-01 08:21:45.850 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel 'PointerDevice-3970 (server)'
+01-01 08:21:45.955 W/WindowManager( 2703): Window Window{408bf658 Keyguard paused=false} destroyed surface Surface(name=Keyguard, identity=-1, mNativeSurface=0), session Session{4077ff18 uid 1000}
+01-01 08:21:46.020 D/GlassLockScreenMusicWidget( 2703): onPause()
+01-01 08:21:46.020 D/GlassLockScreenMusicWidget( 2703): stopMarguee()
+01-01 08:21:46.020 D/GlassLockScreenMissedEventWidget( 2703): onPause()
+01-01 08:21:46.020 D/GlassLockScreenMusicWidget( 2703): cleanUp()
+01-01 08:21:46.020 D/GlassLockScreenMusicWidget( 2703): stopMarguee()
+01-01 08:21:46.020 D/GlassLockScreenMissedEventWidget( 2703): cleanUp()
+01-01 08:21:46.020 D/LockscreenWallpaperUpdater( 2703): cleanUp()
+01-01 08:21:46.025 D/GlassLockscreenInfo( 2703): cleanUp()
+01-01 08:21:46.025 D/LockscreenWallpaperUpdater( 2703): cleanUp()
+01-01 08:21:46.070 I/WindowOrientationListener( 2703): orientation = 15.703381 Tilt = 41.34947 -- 2 ,  6 ,  6
+01-01 08:21:46.330 W/System.err( 3540): java.lang.NoSuchMethodException: isKeyguardLocked
+01-01 08:21:46.330 W/System.err( 3540): 	at java.lang.ClassCache.findMethodByName(ClassCache.java:247)
+01-01 08:21:46.330 W/System.err( 3540): 	at java.lang.Class.getMethod(Class.java:962)
+01-01 08:21:46.330 W/System.err( 3540): 	at com.qihoo360.mobilesafe.util.z.e(Unknown Source)
+01-01 08:21:46.330 W/System.err( 3540): 	at com.qihoo.appstore.notification.c.run(Unknown Source)
+01-01 08:21:46.330 W/System.err( 3540): 	at android.os.Handler.handleCallback(Handler.java:587)
+01-01 08:21:46.330 W/System.err( 3540): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+01-01 08:21:46.330 W/System.err( 3540): 	at android.os.Looper.loop(Looper.java:130)
+01-01 08:21:46.330 W/System.err( 3540): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+01-01 08:21:46.330 W/System.err( 3540): 	at java.lang.reflect.Method.invokeNative(Native Method)
+01-01 08:21:46.335 W/System.err( 3540): 	at java.lang.reflect.Method.invoke(Method.java:507)
+01-01 08:21:46.335 W/System.err( 3540): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+01-01 08:21:46.335 W/System.err( 3540): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+01-01 08:21:46.335 W/System.err( 3540): 	at dalvik.system.NativeStart.main(Native Method)
+01-01 08:21:46.475 I/InputReader( 2703): dispatchTouch::touch event's action is 0, pending(waiting finished signal)=0
+01-01 08:21:46.475 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel '408c1740 com.sec.android.app.twlauncher/com.sec.android.app.twlauncher.Launcher (server)'
+01-01 08:21:46.475 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel '4091e2c8 com.android.internal.service.wallpaper.ImageWallpaper (server)'
+01-01 08:21:46.475 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel 'PointerDevice-3970 (server)'
+01-01 08:21:46.515 I/InputReader( 2703): dispatchTouch::touch event's action is 1, pending(waiting finished signal)=0
+01-01 08:21:46.515 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel '408c1740 com.sec.android.app.twlauncher/com.sec.android.app.twlauncher.Launcher (server)'
+01-01 08:21:46.515 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel '4091e2c8 com.android.internal.service.wallpaper.ImageWallpaper (server)'
+01-01 08:21:46.515 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel 'PointerDevice-3970 (server)'
+01-01 08:21:46.530 E/AudioPolicyManager( 2587): getParamFromPolicy
+01-01 08:21:46.530 E/AudioPolicyManager( 2587): getSituationVolume
+01-01 08:21:46.530 I/AudioPolicyManager( 2587): getSituationVolume: isBTConnected:0 isHeadConnected:0
+01-01 08:21:46.530 I/power   ( 2703): acquire_dvfs_lock level=1 
+01-01 08:21:46.530 I/power   ( 2703): acquire_dvfs_lock level=1, duration=1000, val=66536 
+01-01 08:21:46.530 I/AudioFlinger( 2587): start output streamType (0, 1) for 1
+01-01 08:21:46.530 D/PowerManagerService( 2703): acquireDVFSlock : level : 1,    timeMS : 1000
+01-01 08:21:46.535 I/ActivityManager( 2703): Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.visualon.AppUI/.MainActivity } from pid 2910
+01-01 08:21:46.550 I/WindowManager( 2703):   CREATE SURFACE Surface(name=Starting com.visualon.AppUI, identity=103, mNativeSurface=0) IN SESSION android.view.SurfaceSession@408cc2b0: pid=2703 format=-1 flags=0x0 / Window{40903810 Starting com.visualon.AppUI paused=false}
+01-01 08:21:46.560 E/com.samsung.app( 3016): [MSC]>>> WeatherWidgetProvider.java:323 [0:0] onReceive()@@@ sec.android.intent.action.HOME_PAUSE
+01-01 08:21:46.560 E/com.samsung.app( 3016): [MSC]>>> WidgetIdManager.java:39 [0:0] AccuWeatherClockWidgetID_Length
+01-01 08:21:46.560 E/com.samsung.app( 3016): [MSC]>>> WidgetIdManager.java:40 [0:0] getPrefIDs() : length = 0
+01-01 08:21:46.565 E/com.samsung.app( 3016): [MSC]>>> WeatherWidgetProvider.java:1592 [0:0] disable handler
+01-01 08:21:46.575 I/PhotoAppWidgetProvider( 3669): onReceive
+01-01 08:21:46.575 I/PhotoAppWidgetProvider( 3669): PauseSlideShow
+01-01 08:21:46.575 D/PhotoAppWidgetProvider( 3669): onReceive End
+01-01 08:21:46.590 I/ActivityManager( 2703): Start proc com.visualon.AppUI for activity com.visualon.AppUI/.MainActivity: pid=5338 uid=10102 gids={3003, 1015, 3002, 3001}
+01-01 08:21:46.595 D/GLSurfaceViewGroup( 2910): Skipped drawing due to suspendDrawingUntilResume()
+01-01 08:21:46.595 D/CalendarAppWidgetProviderAgenda( 3515): ACTION_HOME_PAUSE: false
+01-01 08:21:46.620 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp()
+01-01 08:21:46.620 V/OrientationDebug( 2703): in updateOrientationListenerLp(), Screen status=true, current orientation=-1, SensorEnabled=true
+01-01 08:21:46.620 I/OrientationDebug( 2703): [pwm] needSensorRunningLp(), return true #4
+01-01 08:21:46.620 D/dalvikvm( 2586): GC_EXPLICIT freed 12K, 50% free 2707K/5379K, external 0K/0K, paused 29ms
+01-01 08:21:46.630 I/ALSAModule( 2587): Initialized ALSA PLAYBACK device hifi
+01-01 08:21:46.630 W/AudioFlinger( 2587): write blocked for 82 msecs, 36 delayed writes, thread 0x5e988
+01-01 08:21:46.640 D/dalvikvm( 2586): GC_EXPLICIT freed <1K, 50% free 2707K/5379K, external 0K/0K, paused 20ms
+01-01 08:21:46.645 I/Launcher( 2910): onWindowFocusChanged(false)
+01-01 08:21:46.665 D/dalvikvm( 2586): GC_EXPLICIT freed <1K, 50% free 2707K/5379K, external 0K/0K, paused 24ms
+01-01 08:21:46.665 D/GLSurfaceViewGroup( 2910): Skipped drawing due to suspendDrawingUntilResume()
+01-01 08:21:46.670 I/GLThread( 2910): noticed surfaceView surface lost tid=10
+01-01 08:21:46.670 W/EglHelper( 2910): destroySurface()  tid=10
+01-01 08:21:46.680 W/WindowManager( 2703): Window Window{4085e980  paused=false} destroyed surface Surface(name=, identity=-1, mNativeSurface=0), session Session{40c966a0 uid 10104}
+01-01 08:21:46.715 D/dalvikvm( 5338): GC_EXTERNAL_ALLOC freed 72K, 49% free 2785K/5379K, external 0K/0K, paused 22ms
+01-01 08:21:46.730 D/szipinf ( 5338): Initializing inflate state
+01-01 08:21:46.735 D/szipinf ( 5338): Initializing zlib to inflate
+01-01 08:21:46.835 W/WindowManager( 2703): Window Window{408c1740 com.sec.android.app.twlauncher/com.sec.android.app.twlauncher.Launcher paused=false} destroyed surface Surface(name=com.sec.android.app.twlauncher/com.sec.android.app.twlauncher.Launcher, identity=-1, mNativeSurface=0), session Session{408a9a90 uid 10013}
+01-01 08:21:46.835 W/WindowManager( 2703): Window Window{408bb060 SurfaceView paused=false} destroyed surface Surface(name=SurfaceView, identity=-1, mNativeSurface=0), session Session{408a9a90 uid 10013}
+01-01 08:21:46.840 I/AudioFlinger( 2587): stop output streamType (0, 1) for 1
+01-01 08:21:46.870 D/dalvikvm( 5338): GC_CONCURRENT freed 213K, 48% free 2969K/5639K, external 127K/513K, paused 1ms+3ms
+01-01 08:21:46.905 D/dalvikvm( 5338): GC_EXTERNAL_ALLOC freed 29K, 48% free 2958K/5639K, external 506K/513K, paused 26ms
+01-01 08:21:46.920 I/WindowManager( 2703):   CREATE SURFACE Surface(name=com.visualon.AppUI/com.visualon.AppUI.MainActivity, identity=104, mNativeSurface=0) IN SESSION android.view.SurfaceSession@408a7188: pid=5338 format=-1 flags=0x0 / Window{409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity paused=false}
+01-01 08:21:46.940 D/CLIPBOARD( 2910): Hide Clipboard dialog at Starting input: finished by someone else... !
+01-01 08:21:46.950 I/ActivityManager( 2703): Displayed com.visualon.AppUI/.MainActivity: +364ms
+01-01 08:21:46.950 D/CLIPBOARD( 5338): Hide Clipboard dialog at Starting input: finished by someone else... !
+01-01 08:21:46.965 I/GLThread( 2910): onPause tid=10
+01-01 08:21:46.965 I/Main thread( 2910): onPause waiting for mPaused.
+01-01 08:21:46.965 I/GLThread( 2910): mPaused is now true tid=10
+01-01 08:21:47.020 D/GlassLockScreenMusicWidget( 2703): handleStopMarquee()
+01-01 08:21:47.075 I/WindowOrientationListener( 2703): orientation = 19.58853 Tilt = 40.37343 -- 2 ,  7 ,  6
+01-01 08:21:47.225 D/dalvikvm( 2845): GC_CONCURRENT freed 356K, 45% free 3783K/6855K, external 164K/512K, paused 1ms+3ms
+01-01 08:21:47.260 W/WindowManager( 2703): Window Window{40903810 Starting com.visualon.AppUI paused=false} destroyed surface Surface(name=Starting com.visualon.AppUI, identity=-1, mNativeSurface=0), session Session{4077ff18 uid 1000}
+01-01 08:21:48.020 W/PowerManagerService( 2703): Timer 0x7->0x3|0x7
+01-01 08:21:48.075 I/WindowOrientationListener( 2703): orientation = 12.905069 Tilt = 41.353474 -- 2 ,  6 ,  6
+01-01 08:21:48.225 I/InputReader( 2703): dispatchTouch::touch event's action is 0, pending(waiting finished signal)=0
+01-01 08:21:48.225 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel '409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity (server)'
+01-01 08:21:48.225 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel 'PointerDevice-3970 (server)'
+01-01 08:21:48.320 I/InputReader( 2703): dispatchTouch::touch event's action is 1, pending(waiting finished signal)=0
+01-01 08:21:48.320 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel '409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity (server)'
+01-01 08:21:48.320 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel 'PointerDevice-3970 (server)'
+01-01 08:21:48.365 E/SamsungDecoderService>>>>>>>>( 2859): go into imStoreUdb
+01-01 08:21:48.365 V/SamsungDecoderService( 2859): go into storeUdbToFile
+01-01 08:21:48.365 I/        ( 2859): SamsungDecoderService.cpp::go into read Buffer
+01-01 08:21:48.365 I/        ( 2859): PinyinDecoderService: nativeImSetLanguage(): language = zh_CN
+01-01 08:21:48.365 D/XT9     ( 2859): >>>>>>>>>>>>go into GetUdbBuf simplified chinese>>>>>
+01-01 08:21:48.365 I/        ( 2859): im get udb buf len is 8192
+01-01 08:21:48.365 I/        ( 2859): SamsungDecoderService.cpp::go into read Buffer
+01-01 08:21:48.365 I/        ( 2859): PinyinDecoderService: nativeImSetLanguage(): language = zh_TW
+01-01 08:21:48.365 D/XT9     ( 2859): >>>>>>>>>>>>go into GetUdbBuf traditinal chinese>>>>>
+01-01 08:21:48.365 I/        ( 2859): im get udb buf len is 8192
+01-01 08:21:48.425 D/dalvikvm( 5338): GC_EXTERNAL_ALLOC freed 34K, 47% free 3017K/5639K, external 1013K/1032K, paused 37ms
+01-01 08:21:48.430 I/webclipboard( 5338): clipservice: android.sec.clipboard.ClipboardExManager@40535bf8
+01-01 08:21:48.485 V/webview ( 5338): OnSizeChanged: Enter 
+01-01 08:21:48.500 W/IInputConnectionWrapper( 5338): finishComposingText on inactive InputConnection
+01-01 08:21:48.500 D/WML_SISO( 5338): InitPasteboardJni
+01-01 08:21:48.905 I/ALSAModule( 2587): Terminated ALSA PLAYBACK device hifi
+01-01 08:21:49.075 I/WindowOrientationListener( 2703): orientation = 15.458292 Tilt = 37.507725 -- 1 ,  7 ,  5
+01-01 08:21:49.250 D/PowerManagerService( 2703): onSensorChanged: light value: 100
+01-01 08:21:49.820 W/PowerManagerService( 2703): Timer 0x7->0x3|0x7
+01-01 08:21:49.840 I/InputReader( 2703): dispatchTouch::touch event's action is 0, pending(waiting finished signal)=0
+01-01 08:21:49.840 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel '409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity (server)'
+01-01 08:21:49.840 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel 'PointerDevice-3970 (server)'
+01-01 08:21:50.015 I/InputReader( 2703): dispatchTouch::touch event's action is 1, pending(waiting finished signal)=0
+01-01 08:21:50.015 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel '409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity (server)'
+01-01 08:21:50.015 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel 'PointerDevice-3970 (server)'
+01-01 08:21:50.015 V/webview ( 5338):  singleCursorHandlerTouchEvent -getEditableSupport  FASLE 
+01-01 08:21:50.075 I/WindowOrientationListener( 2703): orientation = 14.646992 Tilt = 35.027493 -- 2 ,  7 ,  5
+01-01 08:21:50.415 V/webview ( 5338): doShortPress : mNativeClass - 2699440 mPreventDefault -  0
+01-01 08:21:50.815 D/KeyguardViewMediator( 2703): handleTimeout
+01-01 08:21:50.815 D/PowerManagerService( 2703): releaseWakeLockLocked flags=0x0 tag=keyguard myUID=1000 myPID=2703 myTID=2768
+01-01 08:21:51.034 I/InputReader( 2703): dispatchTouch::touch event's action is 0, pending(waiting finished signal)=0
+01-01 08:21:51.034 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel '409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity (server)'
+01-01 08:21:51.034 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel 'PointerDevice-3970 (server)'
+01-01 08:21:51.079 I/WindowOrientationListener( 2703): orientation = 14.56252 Tilt = 35.48604 -- 1 ,  7 ,  5
+01-01 08:21:51.130 I/InputReader( 2703): dispatchTouch::touch event's action is 1, pending(waiting finished signal)=0
+01-01 08:21:51.130 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel '409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity (server)'
+01-01 08:21:51.130 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel 'PointerDevice-3970 (server)'
+01-01 08:21:51.135 E/AudioPolicyManager( 2587): getParamFromPolicy
+01-01 08:21:51.135 E/AudioPolicyManager( 2587): getSituationVolume
+01-01 08:21:51.135 I/AudioPolicyManager( 2587): getSituationVolume: isBTConnected:0 isHeadConnected:0
+01-01 08:21:51.140 I/AudioFlinger( 2587): start output streamType (0, 1) for 1
+01-01 08:21:51.145 I/ActivityManager( 2703): Starting: Intent { cmp=com.visualon.AppUI/.HistoryActivity } from pid 5338
+01-01 08:21:51.170 W/ActivityManager( 2703): Trying to launch com.visualon.AppUI/.HistoryActivity
+01-01 08:21:51.215 I/WindowManager( 2703):   CREATE SURFACE Surface(name=com.visualon.AppUI/com.visualon.AppUI.HistoryActivity, identity=105, mNativeSurface=0) IN SESSION android.view.SurfaceSession@408a7188: pid=5338 format=-1 flags=0x0 / Window{40afe8e0 com.visualon.AppUI/com.visualon.AppUI.HistoryActivity paused=false}
+01-01 08:21:51.225 E/SamsungDecoderService>>>>>>>>( 2859): go into imStoreUdb
+01-01 08:21:51.225 V/SamsungDecoderService( 2859): go into storeUdbToFile
+01-01 08:21:51.225 I/        ( 2859): SamsungDecoderService.cpp::go into read Buffer
+01-01 08:21:51.225 I/        ( 2859): PinyinDecoderService: nativeImSetLanguage(): language = zh_CN
+01-01 08:21:51.225 D/XT9     ( 2859): >>>>>>>>>>>>go into GetUdbBuf simplified chinese>>>>>
+01-01 08:21:51.225 I/        ( 2859): im get udb buf len is 8192
+01-01 08:21:51.225 I/        ( 2859): SamsungDecoderService.cpp::go into read Buffer
+01-01 08:21:51.225 I/        ( 2859): PinyinDecoderService: nativeImSetLanguage(): language = zh_TW
+01-01 08:21:51.225 D/XT9     ( 2859): >>>>>>>>>>>>go into GetUdbBuf traditinal chinese>>>>>
+01-01 08:21:51.225 I/        ( 2859): im get udb buf len is 8192
+01-01 08:21:51.265 I/ALSAModule( 2587): Initialized ALSA PLAYBACK device hifi
+01-01 08:21:51.400 I/ActivityManager( 2703): Displayed com.visualon.AppUI/.HistoryActivity: +232ms
+01-01 08:21:51.400 W/WindowManager( 2703): Window Window{409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity paused=false} destroyed surface Surface(name=com.visualon.AppUI/com.visualon.AppUI.MainActivity, identity=-1, mNativeSurface=0), session Session{408bf320 uid 10102}
+01-01 08:21:51.475 I/AudioFlinger( 2587): stop output streamType (0, 1) for 1
+01-01 08:21:51.895 I/InputReader( 2703): dispatchTouch::touch event's action is 0, pending(waiting finished signal)=0
+01-01 08:21:51.895 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel '40afe8e0 com.visualon.AppUI/com.visualon.AppUI.HistoryActivity (server)'
+01-01 08:21:51.895 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel 'PointerDevice-3970 (server)'
+01-01 08:21:51.975 I/InputReader( 2703): dispatchTouch::touch event's action is 1, pending(waiting finished signal)=0
+01-01 08:21:51.975 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel '40afe8e0 com.visualon.AppUI/com.visualon.AppUI.HistoryActivity (server)'
+01-01 08:21:51.975 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel 'PointerDevice-3970 (server)'
+01-01 08:21:52.079 I/WindowOrientationListener( 2703): orientation = 13.868716 Tilt = 35.0866 -- 1 ,  7 ,  5
+01-01 08:21:52.110 E/AudioPolicyManager( 2587): getParamFromPolicy
+01-01 08:21:52.110 E/AudioPolicyManager( 2587): getSituationVolume
+01-01 08:21:52.110 I/AudioPolicyManager( 2587): getSituationVolume: isBTConnected:0 isHeadConnected:0
+01-01 08:21:52.110 I/AudioFlinger( 2587): start output streamType (0, 1) for 1
+01-01 08:21:52.120 I/ActivityManager( 2703): Starting: Intent { flg=0x24000000 cmp=com.visualon.AppUI/.MainActivity (has extras) } from pid 5338
+01-01 08:21:52.130 W/ActivityManager( 2703): Duplicate finish request for HistoryRecord{40a04128 com.visualon.AppUI/.HistoryActivity}
+01-01 08:21:52.145 I/WindowManager( 2703):   CREATE SURFACE Surface(name=com.visualon.AppUI/com.visualon.AppUI.MainActivity, identity=106, mNativeSurface=0) IN SESSION android.view.SurfaceSession@408a7188: pid=5338 format=-1 flags=0x0 / Window{409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity paused=false}
+01-01 08:21:52.150 E/SamsungDecoderService>>>>>>>>( 2859): go into imStoreUdb
+01-01 08:21:52.150 V/SamsungDecoderService( 2859): go into storeUdbToFile
+01-01 08:21:52.150 I/        ( 2859): SamsungDecoderService.cpp::go into read Buffer
+01-01 08:21:52.150 I/        ( 2859): PinyinDecoderService: nativeImSetLanguage(): language = zh_CN
+01-01 08:21:52.150 D/XT9     ( 2859): >>>>>>>>>>>>go into GetUdbBuf simplified chinese>>>>>
+01-01 08:21:52.150 I/        ( 2859): im get udb buf len is 8192
+01-01 08:21:52.150 I/        ( 2859): SamsungDecoderService.cpp::go into read Buffer
+01-01 08:21:52.150 I/        ( 2859): PinyinDecoderService: nativeImSetLanguage(): language = zh_TW
+01-01 08:21:52.150 D/XT9     ( 2859): >>>>>>>>>>>>go into GetUdbBuf traditinal chinese>>>>>
+01-01 08:21:52.150 I/        ( 2859): im get udb buf len is 8192
+01-01 08:21:52.330 W/WindowManager( 2703): Window Window{40afe8e0 com.visualon.AppUI/com.visualon.AppUI.HistoryActivity paused=false} destroyed surface Surface(name=com.visualon.AppUI/com.visualon.AppUI.HistoryActivity, identity=-1, mNativeSurface=0), session Session{408bf320 uid 10102}
+01-01 08:21:52.425 I/AudioFlinger( 2587): stop output streamType (0, 1) for 1
+01-01 08:21:52.515 D/dalvikvm( 5338): GC_CONCURRENT freed 156K, 44% free 3367K/5959K, external 1608K/1872K, paused 1ms+8ms
+01-01 08:21:52.630 V/webview ( 5338): ZoomScale 3 mPreserveZoom: false
+01-01 08:21:53.080 I/WindowOrientationListener( 2703): orientation = 13.512083 Tilt = 34.21609 -- 1 ,  7 ,  5
+01-01 08:21:53.260 I/InputReader( 2703): dispatchTouch::touch event's action is 0, pending(waiting finished signal)=0
+01-01 08:21:53.260 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel '409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity (server)'
+01-01 08:21:53.260 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel 'PointerDevice-3970 (server)'
+01-01 08:21:53.370 I/InputReader( 2703): dispatchTouch::touch event's action is 1, pending(waiting finished signal)=0
+01-01 08:21:53.370 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel '409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity (server)'
+01-01 08:21:53.370 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel 'PointerDevice-3970 (server)'
+01-01 08:21:53.370 V/webview ( 5338):  singleCursorHandlerTouchEvent -getEditableSupport  FASLE 
+01-01 08:21:53.775 V/webview ( 5338): doShortPress : mNativeClass - 2699440 mPreventDefault -  0
+01-01 08:21:53.790 E/AudioPolicyManager( 2587): getParamFromPolicy
+01-01 08:21:53.790 E/AudioPolicyManager( 2587): getSituationVolume
+01-01 08:21:53.790 I/AudioPolicyManager( 2587): getSituationVolume: isBTConnected:0 isHeadConnected:0
+01-01 08:21:53.800 I/AudioFlinger( 2587): start output streamType (0, 1) for 1
+01-01 08:21:54.050 D/PowerManagerService( 2703): onSensorChanged: light value: 100
+01-01 08:21:54.070 V/webview ( 5338): ZoomScale 3 mPreserveZoom: false
+01-01 08:21:54.080 I/WindowOrientationListener( 2703): orientation = 12.911808 Tilt = 35.996113 -- 1 ,  7 ,  5
+01-01 08:21:54.105 I/AudioFlinger( 2587): stop output streamType (0, 1) for 1
+01-01 08:21:54.870 W/PowerManagerService( 2703): Timer 0x7->0x3|0x0
+01-01 08:21:54.870 E/lights  ( 2703): write_int: path /sys/devices/virtual/misc/melfas_touchkey/brightness, value 2
+01-01 08:21:54.870 I/PowerManagerService( 2703): Ulight 7->3|0
+01-01 08:21:54.870 D/PowerManagerService( 2703): setLightBrightness : mButtonLight : 0
+01-01 08:21:55.085 I/WindowOrientationListener( 2703): orientation = 16.132915 Tilt = 39.12366 -- 2 ,  7 ,  6
+01-01 08:21:55.250 D/PowerManagerService( 2703): onSensorChanged: light value: 100
+01-01 08:21:55.305 I/InputReader( 2703): dispatchTouch::touch event's action is 0, pending(waiting finished signal)=0
+01-01 08:21:55.305 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel '409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity (server)'
+01-01 08:21:55.305 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel 'PointerDevice-3970 (server)'
+01-01 08:21:55.305 E/lights  ( 2703): write_int: path /sys/devices/virtual/misc/melfas_touchkey/brightness, value 1
+01-01 08:21:55.305 I/PowerManagerService( 2703): Ulight 3->7|0
+01-01 08:21:55.305 D/PowerManagerService( 2703): setLightBrightness : mButtonLight : 69
+01-01 08:21:55.395 I/InputReader( 2703): dispatchTouch::touch event's action is 1, pending(waiting finished signal)=0
+01-01 08:21:55.395 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel '409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity (server)'
+01-01 08:21:55.395 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel 'PointerDevice-3970 (server)'
+01-01 08:21:55.395 V/webview ( 5338):  singleCursorHandlerTouchEvent -getEditableSupport  FASLE 
+01-01 08:21:55.800 V/webview ( 5338): doShortPress : mNativeClass - 2699440 mPreventDefault -  0
+01-01 08:21:55.905 E/AudioPolicyManager( 2587): getParamFromPolicy
+01-01 08:21:55.905 E/AudioPolicyManager( 2587): getSituationVolume
+01-01 08:21:55.905 I/AudioPolicyManager( 2587): getSituationVolume: isBTConnected:0 isHeadConnected:0
+01-01 08:21:55.910 I/AudioFlinger( 2587): start output streamType (0, 1) for 1
+01-01 08:21:55.950 I/[APP][Time]( 5338): Init start time: 946686115951 ms
+01-01 08:21:55.950 V/@@@VOCommonPlayerImpl( 5338): myLooper()1
+01-01 08:21:55.950 I/@@@VOCommonPlayerImpl( 5338): VOCommonPlayerImpl construct.
+01-01 08:21:55.955 V/@@@OSMPBasePlayer( 5338): myLooper()1
+01-01 08:21:55.955 V/@@@OSMPBasePlayer( 5338): voOSBasePlayer Init -
+01-01 08:21:55.955 I/dalvikvm( 5338): Failed resolving Lcom/visualon/OSMPEngine/voOnStreamSDK$3; interface 27 'Landroid/bluetooth/BluetoothProfile$ServiceListener;'
+01-01 08:21:55.955 W/dalvikvm( 5338): Link of class 'Lcom/visualon/OSMPEngine/voOnStreamSDK$3;' failed
+01-01 08:21:55.955 E/dalvikvm( 5338): Could not find class 'com.visualon.OSMPEngine.voOnStreamSDK$3', referenced from method com.visualon.OSMPEngine.voOnStreamSDK.<init>
+01-01 08:21:55.955 W/dalvikvm( 5338): VFY: unable to resolve new-instance 952 (Lcom/visualon/OSMPEngine/voOnStreamSDK$3;) in Lcom/visualon/OSMPEngine/voOnStreamSDK;
+01-01 08:21:55.955 D/dalvikvm( 5338): VFY: replacing opcode 0x22 at 0x002b
+01-01 08:21:55.955 D/dalvikvm( 5338): VFY: dead code 0x002d-00b6 in Lcom/visualon/OSMPEngine/voOnStreamSDK;.<init> ()V
+01-01 08:21:55.960 E/dalvikvm( 5338): Could not find class 'android.view.TextureView', referenced from method com.visualon.OSMPEngine.voOnStreamSDK.addSecondTextureView
+01-01 08:21:55.960 W/dalvikvm( 5338): VFY: unable to resolve new-instance 701 (Landroid/view/TextureView;) in Lcom/visualon/OSMPEngine/voOnStreamSDK;
+01-01 08:21:55.960 D/dalvikvm( 5338): VFY: replacing opcode 0x22 at 0x0052
+01-01 08:21:55.960 D/dalvikvm( 5338): VFY: dead code 0x0054-00d6 in Lcom/visualon/OSMPEngine/voOnStreamSDK;.addSecondTextureView ()V
+01-01 08:21:56.005 D/dalvikvm( 5338): GC_CONCURRENT freed 401K, 45% free 3634K/6535K, external 1377K/1872K, paused 2ms+2ms
+01-01 08:21:56.010 I/dalvikvm( 5338): Could not find method android.bluetooth.BluetoothAdapter.getProfileProxy, referenced from method com.visualon.OSMPEngine.voOnStreamSDK.Open
+01-01 08:21:56.010 W/dalvikvm( 5338): VFY: unable to resolve virtual method 134: Landroid/bluetooth/BluetoothAdapter;.getProfileProxy (Landroid/content/Context;Landroid/bluetooth/BluetoothProfile$ServiceListener;I)Z
+01-01 08:21:56.010 D/dalvikvm( 5338): VFY: replacing opcode 0x6e at 0x002f
+01-01 08:21:56.010 I/dalvikvm( 5338): Could not find method android.view.View.setAlpha, referenced from method com.visualon.OSMPEngine.voOnStreamSDK.SetParam
+01-01 08:21:56.010 W/dalvikvm( 5338): VFY: unable to resolve virtual method 4862: Landroid/view/View;.setAlpha (F)V
+01-01 08:21:56.010 D/dalvikvm( 5338): VFY: replacing opcode 0x6e at 0x0090
+01-01 08:21:56.015 D/dalvikvm( 5338): VFY: dead code 0x0093-0094 in Lcom/visualon/OSMPEngine/voOnStreamSDK;.SetParam (JLjava/lang/Object;)I
+01-01 08:21:56.015 E/dalvikvm( 5338): Could not find class 'android.view.TextureView', referenced from method com.visualon.OSMPEngine.voOnStreamSDK.SetView
+01-01 08:21:56.015 W/dalvikvm( 5338): VFY: unable to resolve instanceof 701 (Landroid/view/TextureView;) in Lcom/visualon/OSMPEngine/voOnStreamSDK;
+01-01 08:21:56.015 D/dalvikvm( 5338): VFY: replacing opcode 0x20 at 0x0021
+01-01 08:21:56.015 E/dalvikvm( 5338): Could not find class 'android.view.TextureView', referenced from method com.visualon.OSMPEngine.voOnStreamSDK.SetView
+01-01 08:21:56.015 W/dalvikvm( 5338): VFY: unable to resolve check-cast 701 (Landroid/view/TextureView;) in Lcom/visualon/OSMPEngine/voOnStreamSDK;
+01-01 08:21:56.015 D/dalvikvm( 5338): VFY: replacing opcode 0x1f at 0x008c
+01-01 08:21:56.015 D/dalvikvm( 5338): VFY: dead code 0x0023-0025 in Lcom/visualon/OSMPEngine/voOnStreamSDK;.SetView (Landroid/view/View;)I
+01-01 08:21:56.015 D/dalvikvm( 5338): VFY: dead code 0x008e-00a4 in Lcom/visualon/OSMPEngine/voOnStreamSDK;.SetView (Landroid/view/View;)I
+01-01 08:21:56.020 D/dalvikvm( 5338): Trying to load lib /data/data/com.visualon.AppUI/lib/libvodl.so 0x4051e790
+01-01 08:21:56.020 I/libvodl(debug)( 5338): voAbout> libvodl(debug) - armeabi - NDKr9 - main - r69054 - 11:21:25 Jul 10 2014 - V3.13.0
+01-01 08:21:56.020 D/dalvikvm( 5338): Added shared lib /data/data/com.visualon.AppUI/lib/libvodl.so 0x4051e790
+01-01 08:21:56.020 D/dalvikvm( 5338): No JNI_OnLoad found in /data/data/com.visualon.AppUI/lib/libvodl.so 0x4051e790, skipping init
+01-01 08:21:56.020 D/dalvikvm( 5338): Trying to load lib /data/data/com.visualon.AppUI/lib/libvoOSEng_OSMP.so 0x4051e790
+01-01 08:21:56.020 I/libvoOSEng(debug)( 5338): voAbout> libvoOSEng(debug) - armeabi - NDKr9 - main - r69094 - 20:03:19 Jul 10 2014 - V3.13.0
+01-01 08:21:56.020 D/dalvikvm( 5338): Added shared lib /data/data/com.visualon.AppUI/lib/libvoOSEng_OSMP.so 0x4051e790
+01-01 08:21:56.020 D/AndroidRuntime( 5338): Shutting down VM
+01-01 08:21:56.020 W/dalvikvm( 5338): threadid=1: thread exiting with uncaught exception (group=0x4001e578)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): FATAL EXCEPTION: main
+01-01 08:21:56.020 E/AndroidRuntime( 5338): java.lang.NoClassDefFoundError: com.visualon.OSMPEngine.voOnStreamSDK$3
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at com.visualon.OSMPEngine.voOnStreamSDK.<init>(voOnStreamSDK.java:1004)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at com.visualon.OSMPBasePlayer.voOSBasePlayer.Init(voOSBasePlayer.java:608)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at com.visualon.OSMPPlayerImpl.VOCommonPlayerImpl.init(VOCommonPlayerImpl.java:190)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at com.visualon.AppPlayerCommonFeatures.APPCommonPlayerControl.creatPlayer(APPCommonPlayerControl.java:59)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at com.visualon.AppPlayerCommonFeatures.CPlayer.createPlayer(CPlayer.java:270)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at com.visualon.AppUI.WebBrowserFragement.startPlayer(WebBrowserFragement.java:365)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at com.visualon.AppUI.WebBrowserFragement.access$1100(WebBrowserFragement.java:61)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at com.visualon.AppUI.WebBrowserFragement$VOWebViewClient.shouldOverrideUrlLoading(WebBrowserFragement.java:283)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at android.webkit.CallbackProxy.uiOverrideUrlLoading(CallbackProxy.java:225)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at android.webkit.CallbackProxy.handleMessage(CallbackProxy.java:348)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at android.os.Looper.loop(Looper.java:130)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at android.app.ActivityThread.main(ActivityThread.java:3691)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at java.lang.reflect.Method.invokeNative(Native Method)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at java.lang.reflect.Method.invoke(Method.java:507)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:907)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:665)
+01-01 08:21:56.020 E/AndroidRuntime( 5338): 	at dalvik.system.NativeStart.main(Native Method)
+01-01 08:21:56.025 W/ActivityManager( 2703):   Force finishing activity com.visualon.AppUI/.MainActivity
+01-01 08:21:56.030 E/        ( 2703): Dumpstate > /data/log/dumpstate_app_error
+01-01 08:21:56.030 I/dumpstate( 5401): begin
+01-01 08:21:56.085 I/WindowOrientationListener( 2703): orientation = 22.388779 Tilt = 45.601776 -- 2 ,  6 ,  6
+01-01 08:21:56.220 I/AudioFlinger( 2587): stop output streamType (0, 1) for 1
+01-01 08:21:56.450 D/PowerManagerService( 2703): onSensorChanged: light value: 100
+01-01 08:21:56.530 W/ActivityManager( 2703): Activity pause timeout for HistoryRecord{4092cde8 com.visualon.AppUI/.MainActivity}
+01-01 08:21:56.895 E/lights  ( 2703): write_int: path /sys/devices/virtual/misc/melfas_touchkey/brightness, value 2
+01-01 08:21:56.895 W/PowerManagerService( 2703): Timer 0x7->0x3|0x0
+01-01 08:21:56.895 I/PowerManagerService( 2703): Ulight 7->3|0
+01-01 08:21:56.895 D/PowerManagerService( 2703): setLightBrightness : mButtonLight : 0
+01-01 08:21:57.650 D/PowerManagerService( 2703): onSensorChanged: light value: 100
+01-01 08:21:58.300 I/ALSAModule( 2587): Terminated ALSA PLAYBACK device hifi
+01-01 08:21:58.575 D/VoldCmdListener( 2579): asec list
+01-01 08:21:59.790 I/dumpstate( 5401): done
+01-01 08:21:59.830 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp()
+01-01 08:21:59.830 V/OrientationDebug( 2703): in updateOrientationListenerLp(), Screen status=true, current orientation=1, SensorEnabled=true
+01-01 08:21:59.830 I/OrientationDebug( 2703): [pwm] needSensorRunningLp(), return true #4
+01-01 08:21:59.840 I/WindowManager( 2703):   CREATE SURFACE Surface(name=很抱歉！, identity=107, mNativeSurface=0) IN SESSION android.view.SurfaceSession@408cc2b0: pid=2703 format=-2 flags=0x0 / Window{40c70568 很抱歉！ paused=false}
+01-01 08:21:59.855 I/GLThread( 2910): onResume tid=10
+01-01 08:21:59.855 I/Main thread( 2910): onResume waiting for !mPaused.
+01-01 08:21:59.855 I/GLThread( 2910): mPaused is now false tid=10
+01-01 08:21:59.855 I/Launcher( 2910): onResume(). mIsNewIntent : false screenOff: false
+01-01 08:21:59.855 D/Launcher( 2910): It's image wallpaper. suggestDesiredDimensions(-1,-1)
+01-01 08:21:59.860 I/WindowManager( 2703):   CREATE SURFACE Surface(name=SurfaceView, identity=108, mNativeSurface=0) IN SESSION android.view.SurfaceSession@406500d0: pid=2910 format=1 flags=0x0 / Window{408bb060 SurfaceView paused=false}
+01-01 08:21:59.865 I/GLThread( 2910): noticed surfaceView surface acquired tid=10
+01-01 08:21:59.865 W/GLThread( 2910): egl createSurface
+01-01 08:21:59.865 W/EglHelper( 2910): createSurface()  tid=10
+01-01 08:21:59.865 I/Main thread( 2910): onWindowResize waiting for render complete from tid=10
+01-01 08:21:59.870 E/com.samsung.app( 3016): [MSC]>>> WeatherWidgetProvider.java:323 [0:0] onReceive()@@@ sec.android.intent.action.HOME_RESUME
+01-01 08:21:59.870 E/com.samsung.app( 3016): [MSC]>>> WidgetIdManager.java:39 [0:0] AccuWeatherClockWidgetID_Length
+01-01 08:21:59.870 E/com.samsung.app( 3016): [MSC]>>> WidgetIdManager.java:40 [0:0] getPrefIDs() : length = 0
+01-01 08:21:59.880 I/PhotoAppWidgetProvider( 3669): onReceive
+01-01 08:21:59.880 I/PhotoAppWidgetProvider( 3669): RestartSlideShow
+01-01 08:21:59.885 D/PhotoDatabaseHelper( 3669): getWidgetIdList query count : 0
+01-01 08:21:59.885 D/PhotoAppWidgetProvider( 3669): onReceive End
+01-01 08:21:59.890 D/DigitalClock( 3245): DigitalClockAppWidget.onReceive : ACTION_HOME_RESUME is called!!
+01-01 08:21:59.895 D/Buddies--------------------------->( 3682): Service:OnReceive ACTION_HOME_RESUME called
+01-01 08:21:59.920 W/GLThread( 2910): onSurfaceChanged(480, 762)
+01-01 08:21:59.925 I/GLThread( 2910): noticing that we want render notification tid=10
+01-01 08:21:59.925 I/Main thread( 2910): onWindowResize waiting for render complete from tid=10
+01-01 08:21:59.925 W/GLThread( 2910): onSurfaceChanged(480, 762)
+01-01 08:21:59.935 I/GLThread( 2910): sending render notification tid=10
+01-01 08:21:59.935 I/WindowManager( 2703):   CREATE SURFACE Surface(name=com.sec.android.app.twlauncher/com.sec.android.app.twlauncher.Launcher, identity=109, mNativeSurface=0) IN SESSION android.view.SurfaceSession@406500d0: pid=2910 format=-2 flags=0x0 / Window{408c1740 com.sec.android.app.twlauncher/com.sec.android.app.twlauncher.Launcher paused=false}
+01-01 08:22:00.265 I/ActivityManager( 2703): No longer want com.google.android.apps.uploader (pid 3620): hidden #26
+01-01 08:22:01.240 I/InputReader( 2703): dispatchTouch::touch event's action is 0, pending(waiting finished signal)=0
+01-01 08:22:01.240 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel '40c70568 很抱歉！ (server)'
+01-01 08:22:01.240 I/InputDispatcher( 2703): Delivering touch to current input target: action: 0, channel 'PointerDevice-3970 (server)'
+01-01 08:22:01.240 E/lights  ( 2703): write_int: path /sys/devices/virtual/misc/melfas_touchkey/brightness, value 1
+01-01 08:22:01.240 I/PowerManagerService( 2703): Ulight 3->7|0
+01-01 08:22:01.240 D/PowerManagerService( 2703): setLightBrightness : mButtonLight : 69
+01-01 08:22:01.300 I/InputReader( 2703): dispatchTouch::touch event's action is 1, pending(waiting finished signal)=0
+01-01 08:22:01.300 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel '40c70568 很抱歉！ (server)'
+01-01 08:22:01.300 I/InputDispatcher( 2703): Delivering touch to current input target: action: 1, channel 'PointerDevice-3970 (server)'
+01-01 08:22:01.330 E/AudioPolicyManager( 2587): getParamFromPolicy
+01-01 08:22:01.330 E/AudioPolicyManager( 2587): getSituationVolume
+01-01 08:22:01.330 I/AudioPolicyManager( 2587): getSituationVolume: isBTConnected:0 isHeadConnected:0
+01-01 08:22:01.335 I/AudioFlinger( 2587): start output streamType (0, 1) for 1
+01-01 08:22:01.355 I/Process ( 5338): Sending signal. PID: 5338 SIG: 9
+01-01 08:22:01.380 I/ActivityManager( 2703): Process com.visualon.AppUI (pid 5338) has died.
+01-01 08:22:01.385 E/InputDispatcher( 2703): channel '409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x8
+01-01 08:22:01.385 E/InputDispatcher( 2703): channel '409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+01-01 08:22:01.390 I/WindowManager( 2703): WIN DEATH: Window{409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity paused=false}
+01-01 08:22:01.390 W/WindowManager( 2703): Window Window{409ef390 com.visualon.AppUI/com.visualon.AppUI.MainActivity paused=false} destroyed surface Surface(name=com.visualon.AppUI/com.visualon.AppUI.MainActivity, identity=-1, mNativeSurface=0), session Session{408bf320 uid 10102}
+01-01 08:22:01.395 I/Launcher( 2910): onWindowFocusChanged(true)
+01-01 08:22:01.400 W/InputManagerService( 2703): Got RemoteException sending setActive(false) notification to pid 5338 uid 10102
+01-01 08:22:01.460 I/ALSAModule( 2587): Initialized ALSA PLAYBACK device hifi
+01-01 08:22:01.460 W/AudioFlinger( 2587): write blocked for 97 msecs, 38 delayed writes, thread 0x5e988
+01-01 08:22:01.550 W/WindowManager( 2703): Window Window{40c70568 很抱歉！ paused=false} destroyed surface Surface(name=很抱歉！, identity=-1, mNativeSurface=0), session Session{4077ff18 uid 1000}
+01-01 08:22:01.675 I/AudioFlinger( 2587): stop output streamType (0, 1) for 1
+01-01 08:22:02.805 E/lights  ( 2703): write_int: path /sys/devices/virtual/misc/melfas_touchkey/brightness, value 2
+01-01 08:22:02.805 W/PowerManagerService( 2703): Timer 0x7->0x3|0x0
+01-01 08:22:02.805 I/PowerManagerService( 2703): Ulight 7->3|0
+01-01 08:22:02.805 D/PowerManagerService( 2703): setLightBrightness : mButtonLight : 0
+01-01 08:22:03.740 I/ALSAModule( 2587): Terminated ALSA PLAYBACK device hifi
+01-01 08:22:04.380 D/dalvikvm( 3550): GC_CONCURRENT freed 431K, 48% free 3284K/6215K, external 0K/0K, paused 7ms+7ms
+01-01 08:22:06.335 D/dalvikvm( 3661): GC_EXPLICIT freed 12K, 50% free 2715K/5379K, external 0K/0K, paused 77ms
+01-01 08:22:10.190 D/dalvikvm( 2703): GC_CONCURRENT freed 1882K, 42% free 7518K/12935K, external 6432K/7418K, paused 11ms+10ms
+01-01 08:22:10.275 W/ActivityManager( 2703): Activity destroy timeout for HistoryRecord{4092cde8 com.visualon.AppUI/.MainActivity}
+01-01 08:22:10.605 I/WindowManager( 2703):   CREATE SURFACE Surface(name=, identity=110, mNativeSurface=0) IN SESSION android.view.SurfaceSession@40c96ef0: pid=2845 format=-3 flags=0x0 / Window{4085e980  paused=false}
+01-01 08:22:12.360 D/dalvikvm( 3669): GC_EXPLICIT freed 36K, 50% free 2820K/5575K, external 4K/516K, paused 88ms
+01-01 08:22:17.280 E/BatteryService( 2703): TMU status = 0
+01-01 08:22:17.280 D/BatteryService( 2703): update start
+01-01 08:22:17.285 D/BatteryService( 2703): updateBattery level:7 scale:100 status:2 health:2 present:true voltage: 3766 temperature: 370 technology: Li-ion AC powered:false USB powered:true icon:17302233
+01-01 08:22:17.310 D/PhoneUtils( 2862): updateRAFT() : FactoryMode : false
+01-01 08:22:17.315 I/StatusBarPolicy( 2842): BAT. S:2 H:2
+01-01 08:22:17.395 D/dalvikvm( 3682): GC_EXPLICIT freed 33K, 50% free 2719K/5379K, external 0K/0K, paused 121ms
+01-01 08:22:22.420 D/dalvikvm( 3790): GC_EXPLICIT freed 6K, 49% free 2778K/5379K, external 0K/0K, paused 57ms
+01-01 08:22:24.325 W/PowerManagerService( 2703): Timer 0x3->0x1|0x0
+01-01 08:22:24.325 I/PowerManagerService( 2703): Ulight 3->1|0
+01-01 08:22:24.330 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 66
+01-01 08:22:24.344 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 64
+01-01 08:22:24.360 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 61
+01-01 08:22:24.375 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 59
+01-01 08:22:24.395 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 57
+01-01 08:22:24.410 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 55
+01-01 08:22:24.425 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 52
+01-01 08:22:24.440 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 50
+01-01 08:22:24.460 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 48
+01-01 08:22:24.475 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 45
+01-01 08:22:24.490 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 43
+01-01 08:22:24.505 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 41
+01-01 08:22:24.520 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 38
+01-01 08:22:24.540 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 36
+01-01 08:22:24.555 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 34
+01-01 08:22:24.570 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 31
+01-01 08:22:24.585 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 29
+01-01 08:22:24.605 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 27
+01-01 08:22:24.620 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 24
+01-01 08:22:24.635 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 22
+01-01 08:22:24.655 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 20
+01-01 08:22:24.655 I/PowerManagerService( 2703): Light Animator Finished curIntValue=20
+01-01 08:22:27.470 D/dalvikvm( 3016): GC_EXPLICIT freed 112K, 50% free 2850K/5639K, external 0K/0K, paused 103ms
+01-01 08:22:31.329 W/PowerManagerService( 2703): Timer 0x1->0x0|0x0
+01-01 08:22:31.329 D/PowerManagerService( 2703): Screen__Off : Timeout
+01-01 08:22:31.329 I/PowerManagerService( 2703): Ulight 1->0|0
+01-01 08:22:31.334 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 17
+01-01 08:22:31.350 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 15
+01-01 08:22:31.365 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 12
+01-01 08:22:31.385 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 10
+01-01 08:22:31.400 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 7
+01-01 08:22:31.415 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 5
+01-01 08:22:31.430 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 2
+01-01 08:22:31.445 E/lights  ( 2703): write_int: path /sys/class/backlight/pwm-backlight/brightness, value 0
+01-01 08:22:31.450 E/power   ( 2703): *** set_screen_state 0
+01-01 08:22:31.450 D/SensorManager( 2703): unregisterListener:: disable all sensors for this listener,  listener = com.android.server.PowerManagerService$13@4052a230
+01-01 08:22:31.450 I/PowerManagerService( 2703): Light Animator Finished curIntValue=0
+01-01 08:22:31.450 D/PowerManagerService( 2703): enableLightSensor false
+01-01 08:22:31.455 E/lights  ( 2703): write_int: path /sys/devices/virtual/misc/melfas_touchkey/brightness, value 2
+01-01 08:22:31.455 E/lights  ( 2703): write_int: path /sys/class/leds/keyboard-backlight/brightness, value 0
+01-01 08:22:31.455 W/PowerManagerService( 2703): CurLockF mPS:0 mUS=0
+01-01 08:22:31.455 W/PowerManagerService( 2703): type=PARTIAL_WAKE_LOCK              'sleep_broadcast' active (mS=0)  activeT=4
+01-01 08:22:31.455 W/PowerManagerService( 2703): mPokeLocks.size=0:
+01-01 08:22:31.455 D/PowerManagerService( 2703): sendNotificationLocked on=false
+01-01 08:22:31.460 D/KeyguardViewMediator( 2703): onScreenTurnedOff(3)
+01-01 08:22:31.460 D/KeyguardViewMediator( 2703): setting alarm to turn off keyguard, seq = 7
+01-01 08:22:31.460 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp()
+01-01 08:22:31.460 V/OrientationDebug( 2703): in updateOrientationListenerLp(), Screen status=false, current orientation=1, SensorEnabled=true
+01-01 08:22:31.460 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp(), now call mOrientationListener.disable(), and mOrientationSensorEnabled = false #2
+01-01 08:22:31.460 I/OrientationDebug( 2703): [WindowOrientationListener] in disable(), now call SensorManager.unregisterListener()
+01-01 08:22:31.460 D/SensorManager( 2703): unregisterListener:: disable all sensors for this listener,  listener = android.view.WindowOrientationListener$SensorEventListenerImpl@4087f840
+01-01 08:22:31.460 D/PowerManagerService( 2703): mNotificationTask : off
+01-01 08:22:31.465 V/WindowManager( 2703): Setting event dispatching to false
+01-01 08:22:31.480 D/SurfaceFlinger( 2703): About to give-up screen, flinger = 0x12ffe8
+01-01 08:22:31.580 E/com.samsung.app( 3016): [MSC]>>> WeatherWidgetProvider.java:323 [0:0] onReceive()@@@ sec.android.intent.action.HOME_PAUSE
+01-01 08:22:31.580 E/com.samsung.app( 3016): [MSC]>>> WidgetIdManager.java:39 [0:0] AccuWeatherClockWidgetID_Length
+01-01 08:22:31.580 E/com.samsung.app( 3016): [MSC]>>> WidgetIdManager.java:40 [0:0] getPrefIDs() : length = 0
+01-01 08:22:31.580 D/GLSurfaceViewGroup( 2910): Skipped drawing due to suspendDrawingUntilResume()
+01-01 08:22:31.585 E/com.samsung.app( 3016): [MSC]>>> WeatherWidgetProvider.java:1592 [0:0] disable handler
+01-01 08:22:31.600 I/PhotoAppWidgetProvider( 3669): onReceive
+01-01 08:22:31.600 I/PhotoAppWidgetProvider( 3669): PauseSlideShow
+01-01 08:22:31.600 D/PhotoAppWidgetProvider( 3669): onReceive End
+01-01 08:22:31.600 D/CalendarAppWidgetProviderAgenda( 3515): ACTION_HOME_PAUSE: false
+01-01 08:22:31.625 W/WindowManager( 2703): Window Window{4085e980  paused=false} destroyed surface Surface(name=, identity=-1, mNativeSurface=0), session Session{40c966a0 uid 10104}
+01-01 08:22:31.650 I/StatusBarPolicy( 2842): onDataActivity-D:0
+01-01 08:22:31.650 I/StatusBarPolicy( 2842): onDataActivity-D:0
+01-01 08:22:31.655 D/PhoneUtils( 2862): updateRAFT() : FactoryMode : false
+01-01 08:22:31.665 I/Launcher( 2910): ACTION_SCREEN_OFF
+01-01 08:22:31.735 V/SettingsProvider( 2703): system <- value=1 name=phone_lock_status
+01-01 08:22:31.735 V/SettingsProvider( 2703): property: sys.settings_system_version=19
+01-01 08:22:31.735 V/SettingsProvider( 2703): notifying: content://settings/system/phone_lock_status
+01-01 08:22:31.735 D/PowerManagerService( 2703): setScreenOffTimeouts mKeylightDelay=1500 mDimDelay=21500 mScreenOffDelay=7000 mDimScreen=true
+01-01 08:22:36.465 D/KeyguardViewMediator( 2703): doKeyguard: showing the lock screen
+01-01 08:22:36.465 D/KeyguardViewMediator( 2703): showLocked
+01-01 08:22:36.470 D/KeyguardViewMediator( 2703): handleShow
+01-01 08:22:36.484 D/LockPatternKeyguardView( 2703): Face RecongnitionValue = 0
+01-01 08:22:36.495 D/LockscreenWallpaperUpdater( 2703): add lockscreenwallpaper
+01-01 08:22:36.565 D/GlassLockScreenMusicWidget( 2703): Controller Initiation Running!!
+01-01 08:22:36.565 D/GlassLockScreenMusicWidget( 2703): at init() send broadcast
+01-01 08:22:36.565 D/GlassLockScreenMusicWidget( 2703): resetMinTimer()
+01-01 08:22:36.565 D/GlassLockScreenMusicWidget( 2703): removeMinTimer()
+01-01 08:22:36.565 D/GlassLockScreenMusicWidget( 2703): addMinTimer()
+01-01 08:22:36.655 D/dalvikvm( 2703): GC_EXTERNAL_ALLOC freed 1032K, 43% free 7403K/12935K, external 2160K/2161K, paused 79ms
+01-01 08:22:36.665 I/System.out( 3790): FMRADIO Sending OFF broadcast .... 
+01-01 08:22:36.665 E/GlassLockScreenFMRadioWidget( 2703): onReceive() : intent action=com.android.fm.player_lock.status.off
+01-01 08:22:36.730 D/dalvikvm( 2703): GC_EXTERNAL_ALLOC freed 29K, 43% free 7402K/12935K, external 2695K/2716K, paused 47ms
+01-01 08:22:36.740 D/GlassLockScreenMissedEventWidget( 2703): Controller Initiation Running!!
+01-01 08:22:36.760 D/UnlockClock( 2703): GMT_update mRightNow.getTimeZone().getID() == Asia/Hong_Kong
+01-01 08:22:36.810 D/dalvikvm( 2703): GC_EXTERNAL_ALLOC freed 17K, 43% free 7417K/12935K, external 3446K/3476K, paused 49ms
+01-01 08:22:36.815 D/GlassLockscreenInfo( 2703): init
+01-01 08:22:36.815 D/GlassLockScreen( 2703): CLOCK_POSITION from Setting Value = 2
+01-01 08:22:36.865 D/dalvikvm( 2703): GC_EXTERNAL_ALLOC freed 10K, 43% free 7425K/12935K, external 2737K/3320K, paused 48ms
+01-01 08:22:36.875 D/GlassLockScreenFMRadioWidget( 2703): getIsFMPlayerPlaying() : mIsFMPlayerPlaying=false
+01-01 08:22:36.875 D/GlassLockScreen( 2703):  is FM Playing  = false
+01-01 08:22:36.875 D/GlassLockScreenFMRadioWidget( 2703): getIsFMPlayerPlaying() : mIsFMPlayerPlaying=false
+01-01 08:22:36.895 D/LockscreenWallpaperUpdater( 2703): add lockscreenwallpaper
+01-01 08:22:36.900 D/KeyguardViewMediator( 2703): adjustUserActivityLocked mShowing: true mHidden: false
+01-01 08:22:36.900 D/GlassLockScreenFMRadioWidget( 2703): handleMediaUpdate !! isPlaying = 0 isStop = 1 mIsFMPlayerPlaying = false
+01-01 08:22:36.900 D/PowerManagerService( 2703): enableUserActivity false
+01-01 08:22:36.900 D/StatusBarManagerService( 2703): manageDisableList what=0x1 pkg=android
+01-01 08:22:36.915 D/GLSurfaceViewGroup( 2910): Skipped drawing due to suspendDrawingUntilResume()
+01-01 08:22:36.925 I/OrientationDebug( 2703): [pwm] in updateOrientationListenerLp()
+01-01 08:22:36.925 V/OrientationDebug( 2703): in updateOrientationListenerLp(), Screen status=false, current orientation=5, SensorEnabled=false
+01-01 08:22:36.925 I/WindowManager( 2703):   CREATE SURFACE Surface(name=Keyguard, identity=111, mNativeSurface=0) IN SESSION android.view.SurfaceSession@408cc2b0: pid=2703 format=-3 flags=0x0 / Window{408bf658 Keyguard paused=false}
+01-01 08:22:36.925 W/WindowManager( 2703): Layout repeat skipped after too many iterations
+01-01 08:22:36.925 W/WindowManager( 2703): Layout repeat skipped after too many iterations
+01-01 08:22:36.925 W/WindowManager( 2703): Layout repeat skipped after too many iterations
+01-01 08:22:36.925 W/WindowManager( 2703): Animation repeat aborted after too many iterations
+01-01 08:22:36.930 D/LockscreenWallpaperUpdater( 2703): onResume()
+01-01 08:22:36.930 D/LockscreenWallpaperUpdater( 2703): get drawable (public) 
+01-01 08:22:36.930 D/LockscreenWallpaperUpdater( 2703): get drawable (keygurardupdatemonitor private get) 
+01-01 08:22:36.930 D/LockscreenWallpaperUpdater( 2703): drawable is null(keygurardupdatemonitor private get) 
+01-01 08:22:36.930 D/LockscreenWallpaperUpdater( 2703): set drawable
+01-01 08:22:36.930 D/LockscreenWallpaperUpdater( 2703): wallpaper file not exist 
+01-01 08:22:36.980 D/dalvikvm( 2703): GC_EXTERNAL_ALLOC freed 32K, 43% free 7470K/12935K, external 4513K/5202K, paused 50ms
+01-01 08:22:37.065 I/Launcher( 2910): onWindowFocusChanged(false)
+01-01 08:22:37.065 D/GLSurfaceViewGroup( 2910): Skipped drawing due to suspendDrawingUntilResume()
