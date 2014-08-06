@@ -5,8 +5,8 @@ import os
 import csv
 import sys
 import datetime
-# log_file = sys.argv[1]
-log_file = r"1.txt"
+log_file = sys.argv[1]
+# log_file = r"1.txt"
 csv_content = []
 # new_csv = sys.argv[2]
 new_csv = r"result.csv"
