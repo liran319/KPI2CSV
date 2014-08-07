@@ -6,7 +6,7 @@ import csv
 import sys
 import datetime
 log_file = sys.argv[1]
-# log_file = r"1.txt"
+# log_file = r"T:\alex\0807\36.log"
 csv_content = []
 # new_csv = sys.argv[2]
 new_csv = r"result.csv"
@@ -93,13 +93,13 @@ def segmentLog(logfile):
     f = open(logfile, "rb")
     flag1 = 1  # flag for readline
     segment_stop = ".*Open to render using time:.*"
-    # segment_start = ".*Init using time:.*"
+    segment_start = "Open using time"
     tempList = []  # counter for readline
     content = []
+    new_content = []
+
     while flag1:
         line = f.readline()
-        # print re.search(segment_start, line)
-        # print re.search(segment_stop, line)
         tempList.append(line)
         if re.search(segment_stop, line):  # keyword is in that line
             temp = ''.join(tempList)
@@ -110,11 +110,10 @@ def segmentLog(logfile):
         if not line:
             flag1 = 0
             break
-    # print content
-    new_content = []
+
     for each_segment in content:
         for each_line in each_segment.splitlines():
-            if each_line.find("Init using time") >= 0:
+            if each_line.find(segment_start) >= 0:
                 new_segment = each_segment[each_segment.index(each_line):]
                 new_content.append(new_segment)
     return new_content
@@ -131,20 +130,21 @@ def text2list(logfile):
         print '*' * 20
         for key, vaule in patternDic.items():
             result = re.findall(vaule, str(segment))
-            # if len(result) == 1:
             if key in patternList1:  # 当关键字只能是唯一的时候
-                segmentDicList[key] = result[0]
-                # print result.group(1)
+                # 如果搜寻不到，打印错误并且设置输出值为空
+                try:
+                    segmentDicList[key] = result[0]
+                except Exception as e:
+                    print e
+                    segmentDicList[key] = " "
             else:  # 当关键字应该出现2次的情况
                 if len(result) == 2:
-                    # print result
                     segmentDicList[key] = timeshift(result[0], result[1])
                 elif len(result) > 2:  # 如果出现多于2次的数据，取前两次
                     print result
                     segmentDicList[key] = timeshift(result[0], result[1])
                 else:
                     segmentDicList[key] = " "
-                    # segmentDicList[key] = result[0]
         segmentList.append([segmentDicList[key] for key in patternList])
     return segmentList
 
@@ -152,7 +152,6 @@ def text2list(logfile):
 if __name__ == '__main__':
     line_list = text2list(log_file)
     # line_list = segmentLog(log_file)
-    # print line_list
     for i in line_list:
         print i
         print "____________"
