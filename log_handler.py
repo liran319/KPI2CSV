@@ -90,10 +90,11 @@ def timeshift(inputtime, outputtime):
 
 
 def segmentLog(logfile):
+    """切分log，以便单独分析每段log"""
     f = open(logfile, "rb")
     flag1 = 1  # flag for readline
-    segment_stop = ".*Open to render using time:.*"
     segment_start = "Open using time"
+    segment_stop = ".*Open to render using time:.*"
     tempList = []  # counter for readline
     content = []
     new_content = []
