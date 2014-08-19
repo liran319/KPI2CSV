@@ -85,7 +85,8 @@ writer.writerow(patternList)
 def timeshift(inputtime, outputtime):
     time1 = datetime.datetime.strptime(inputtime, '%H:%M:%S.%f')
     time2 = datetime.datetime.strptime(outputtime, '%H:%M:%S.%f')
-    timeshift1 = abs(((time2 - time1).microseconds) / 1000.)
+    delta = time2 - time1
+    timeshift1 = delta.microseconds / 1000 + delta.seconds * 1000
     return timeshift1
 
 
