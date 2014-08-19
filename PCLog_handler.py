@@ -8,7 +8,7 @@ import datetime
 
 # log_file = sys.argv[1]
 # log_file = r"\\fs\Temp\Linshujia\volog.log"
-urlsPath = r"\\fs\Temp\Linshujia\kpi\V3.6firstTimeWireless"
+urlsPath = r"\\fs\Temp\Linshujia\kpi\V3.5firstTimeWired"
 csv_content = []
 # new_csv = sys.argv[2]
 new_csv = urlsPath + '\\' + r"result.csv"
