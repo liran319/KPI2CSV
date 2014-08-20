@@ -6,13 +6,9 @@ import csv
 import sys
 import datetime
 
-# log_file = sys.argv[1]
-# log_file = r"\\fs\Temp\Linshujia\volog.log"
-urlsPath = r"\\fs\Temp\Linshujia\kpi\V3.5firstTimeWired"
+urlsPath = sys.argv[1]
 csv_content = []
-# new_csv = sys.argv[2]
 new_csv = urlsPath + '\\' + r"result.csv"
-# csv_name = os.path.splitext(urlsPath)[0] + ".csv"
 csvfile = file(new_csv, 'wb')
 
 
@@ -51,36 +47,6 @@ def timeshift(inputtime, outputtime):
     delta = time2 - time1
     timeshift1 = delta.microseconds / 1000 + delta.seconds * 1000
     return timeshift1
-
-
-# def segmentLog(logfile):
-#     """切分log，以便单独分析每段log"""
-#     f = open(logfile, "rb")
-#     flag1 = 1  # flag for readline
-#     tempList = []  # counter for readline
-#     content = []
-#     new_content = []
-
-#     while flag1:
-#         line = f.readline()
-#         tempList.append(line)
-#         if re.search(pattern_Video, line):  # keyword is in that line
-#             temp = ''.join(tempList)
-#             content.append(temp)
-#             tempList = []
-#         else:
-#             pass
-#         if not line:
-#             flag1 = 0
-#             break
-
-#     for each_segment in content:
-#         for each_line in each_segment.splitlines():
-#             # if each_line.find(segment_start) >= 0:
-#             if re.search(pattern_Open, each_line):
-#                 new_segment = each_segment[each_segment.index(each_line):]
-#                 new_content.append(new_segment)
-#     return new_content
 
 
 def text2list(logfile):
