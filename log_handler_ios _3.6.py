@@ -7,7 +7,7 @@ import csv
 import sys
 import datetime
 log_file = sys.argv[1]
-# log_file = r"T:\alex\0807\36.log"
+# log_file = r"C:\Users\li_ran\Desktop\KPI\ios_app_log1.log"
 csv_content = []
 # new_csv = sys.argv[2]
 new_csv = r"result.csv"
@@ -16,34 +16,36 @@ csvfile = file(csv_name, 'wb')
 writer = csv.writer(csvfile)
 
 """
-2.log:07-29 16:21:59.250 I/[APP][Time](27331): Init using time: 63 ms, current time: 1406622119262 ms
-2.log:07-29 16:21:59.770 I/[APP][Time](27331): Open using time: 105 ms, current time: 1406622119781 ms
-2.log:07-29 16:22:00.010 I/[APP][Time](27331): Open complete using time: 348 ms, current time: 1406622120024 ms
-2.log:07-29 16:22:00.120 I/[APP][Time](27331): Run using time: 105 ms, current time: 1406622120130 ms
-2.log:07-29 16:22:00.120 I/VOLOG   (27331): 16:22:00.131 @@@VOLOG,    Run, 0A030000, 01FA7E60, DRM_Verimatrix_AES128_Other.cpp, VerifyVR, 138, VR IsHandshakeVerified+
-2.log:07-29 16:22:00.120 I/VOLOG   (27331): 16:22:00.132 @@@VOLOG,    Run, 0A030000, 01FA7E60, DRM_Verimatrix_AES128_Other.cpp, VerifyVR, 140, VR IsHandshakeVerified- 1
-2.log:07-29 16:22:00.120 I/VOLOG   (27331): 16:22:00.132 @@@VOLOG,   Info, 0A030000, 01FA7E60, DRM_Verimatrix_AES128_Other.cpp, CheckDeviceVCASStatus, 336, VR SetVCASCommunicationHandlerSettings+ \data\data/com.visualon.AppUI/
-2.log:07-29 16:22:01.370 I/VOLOG   (27331): 16:22:01.379 @@@VOLOG,    Run, 0A030000, 01FA7E60, DRM_Verimatrix_AES128_Other.cpp, CheckDeviceVCASStatus, 338, VR SetVCASCommunicationHandlerSettings- 0
-1.log:07-29 16:21:37.140 I/VOLOG   (27331): 16:21:37.150 @@@VOLOG,    Run, 0A030000, 02167790, DRM_Verimatrix_AES128_Other.cpp, VerifyVR, 259, VR SetLogging+
-1.log:07-29 16:21:37.140 I/VOLOG   (27331): 16:21:37.151 @@@VOLOG,    Run, 0A030000, 02167790, DRM_Verimatrix_AES128_Other.cpp, VerifyVR, 261, VR SetLogging-
-2.log:07-29 16:22:03.770 I/VOLOG   (27331): 16:22:03.784 @@@VOLOG,    Run, 0A030000, 01FA7E60, DRM_Verimatrix_AES128_Other.cpp, CheckDeviceVCASStatus, 397, VR CheckVCASConnection+
-2.log:07-29 16:22:05.800 I/VOLOG   (27331): 16:22:05.814 @@@VOLOG,    Run, 0A030000, 01FA7E60, DRM_Verimatrix_AES128_Other.cpp, CheckDeviceVCASStatus, 399, VR CheckVCASConnection- 0
-2.log:07-29 16:22:05.850 I/VOLOG   (27331): 16:22:05.861 @@@VOLOG,    Run, 0A030000, 01FA7E60, DRM_Verimatrix_AES128_Other.cpp, OnSourceDrm, 829, VR Decrypt+ 601600
-2.log:07-29 16:22:06.120 I/VOLOG   (27331): 16:22:06.127 @@@VOLOG,    Run, 0A030000, 01FA7E60, DRM_Verimatrix_AES128_Other.cpp, OnSourceDrm, 831, VR Decrypt- 0 601600
-2.log:07-29 16:22:06.330 I/VOLOG   (27331): 16:22:06.340 @@@VOLOG,    Run, 0A030000, 01FA7E60, DRM_Verimatrix_AES128_Other.cpp, OnSourceDrm, 829, VR Decrypt+ 492944
-2.log:07-29 16:22:06.450 I/VOLOG   (27331): 16:22:06.466 @@@VOLOG,    Run, 0A030000, 01FA7E60, DRM_Verimatrix_AES128_Other.cpp, OnSourceDrm, 831, VR Decrypt- 0 492944
-2.log:07-29 16:22:06.650 I/VOLOG   (27331): 16:22:06.658 @@@VOLOG,    Run, 0A030000, 01FA7E60, DRM_Verimatrix_AES128_Other.cpp, VerifyVR, 138, VR IsHandshakeVerified+
-2.log:07-29 16:22:06.650 I/VOLOG   (27331): 16:22:06.659 @@@VOLOG,    Run, 0A030000, 01FA7E60, DRM_Verimatrix_AES128_Other.cpp, VerifyVR, 140, VR IsHandshakeVerified- 1
-2.log:07-29 16:22:06.870 I/[APP][Time](27331): Buffer using time: 6734 ms, current time: 1406622126885 ms
-2.log:07-29 16:22:06.970 I/[APP][Time](27331): Open to render using time: 7308 ms, current time: 1406622126984 ms
-
+Aug 21 15:13:32 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>uninit start  = 1408605212132.380859 ms
+Aug 21 15:13:32 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>uninit end  = 1408605212135.940918 ms
+Aug 21 15:13:32 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>init start  = 1408605212137.761230 ms
+Aug 21 15:13:32 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>init end  = 1408605212187.838135 ms
+Aug 21 15:13:32 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>VOOSMP_SRC_PID_DRM_UNIQUE_IDENTIFIER value:or3ZXLBpDjPmNw/yvqZ+TJD8iQY=
+Aug 21 15:13:32 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>open start  = 1408605212215.539062 ms
+Aug 21 15:13:32 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>open itself using  = 21.567871 ms
+Aug 21 15:13:33 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>> open finished  = 1408605213809.140869 ms
+Aug 21 15:13:33 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>open finish run start  = 1408605213810.347168 ms
+Aug 21 15:13:33 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>run end  = 1408605213812.279053 ms run using time = 1.936768
+Aug 21 15:13:33 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>buffer start  = 1408605213817.316895 ms
+Aug 21 15:13:34 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>buffer using time = 462.166965 ms
+Aug 21 15:13:34 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>buffer stop  = 1408605214279.786133 ms
+Aug 21 15:13:34 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>buffer start  = 1408605214280.173096 ms
+Aug 21 15:13:34 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>buffer using time = 407.495975 ms
+Aug 21 15:13:34 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>buffer stop  = 1408605214688.269043 ms
+Aug 21 15:13:34 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>seek complete  = 1408605214687.869141 ms
+Aug 21 15:13:34 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>open to render time = 2473.680973 ms
+Aug 21 15:13:34 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>render start  = 1408605214689.552979 ms
+Aug 21 15:13:36 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>stop start  = 1408605216348.291992 ms
+Aug 21 15:13:37 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>stop end  = 1408605217202.619141 ms, stop using time: 854.336914
+Aug 21 15:13:37 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>close start  = 1408605217204.575928 ms
 """
-pattern_Init = "Init using time: (\d*) ms,"
-pattern_Open = "Open using time: (\d*) ms,"
-pattern_Open_Complete = "Open complete using time: (\d*) ms,"
-pattern_Run = "Run using time: (\d*) ms,"
-pattern_Buffer = "Buffer using time: (\d*) ms,"
-pattern_Open_Render = "Open to render using time: (\d*) ms,"
+# pattern_Init = "Init using time.{2}(\d*) ms,"
+pattern_Open = "\w{3} \d{2} \d{2}:\d{2}:\d{2}.{65}open itself using\s{1,2}= (\d*\.\d*) ms"
+# pattern_Open_Complete = "Open complete using time.{2}(\d*) ms,"
+pattern_Run = "\w{3} \d{2} \d{2}:\d{2}:\d{2}.{100}run using time.{3}(\d*\.\d*)"
+pattern_Buffer = "\w{3} \d{2} \d{2}:\d{2}:\d{2}.{65}buffer using time\s{1,2}= (\d*\.\d*) ms"
+pattern_Open_Render = "\w{3} \d{2} \d{2}:\d{2}:\d{2}.{65}open to render time.{3,4}(\d*\.\d*) ms"
+pattern_Stop = '\w{3}\s\d{2}\s\d{2}:\d{2}:\d{2}\s.{101}stop using time:\s(\d*\.\d*)'
 pattern_IsHandshakeVerified = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR IsHandshakeVerified"
 pattern_SetLogging = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR SetLogging"
 pattern_SetVCASCommunicationHandlerSettings = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR SetVCASCommunicationHandlerSettings"
@@ -53,9 +55,10 @@ pattern_IsDeviceProvisioned = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR IsDevicePr
 pattern_ConnectAndProvisionDevice = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR ConnectAndProvisionDevice"
 
 
-patternDic = {"Init": pattern_Init,
+patternDic = {
+              # "Init": pattern_Init,
               "Open": pattern_Open,
-              "Open_Complete": pattern_Open_Complete,
+              "Stop": pattern_Stop,
               "Run": pattern_Run,
               "Buffer": pattern_Buffer,
               "Open_to_render": pattern_Open_Render,
@@ -69,7 +72,7 @@ patternDic = {"Init": pattern_Init,
               "Decrypt": pattern_Decrypt,
               }
 
-patternList1 = ["Init", "Open", "Open_Complete", "Run",
+patternList1 = ["Open", "Stop", "Run",
                 "Buffer", "Open_to_render"]
 
 patternList2 = ["IsHandshakeVerified", "SetLogging",
@@ -86,8 +89,7 @@ writer.writerow(patternList)
 def timeshift(inputtime, outputtime):
     time1 = datetime.datetime.strptime(inputtime, '%H:%M:%S.%f')
     time2 = datetime.datetime.strptime(outputtime, '%H:%M:%S.%f')
-    delta = time2 - time1
-    timeshift1 = delta.microseconds / 1000 + delta.seconds * 1000
+    timeshift1 = abs(((time2 - time1).microseconds) / 1000.)
     return timeshift1
 
 
@@ -95,8 +97,8 @@ def segmentLog(logfile):
     """切分log，以便单独分析每段log"""
     f = open(logfile, "rb")
     flag1 = 1  # flag for readline
-    segment_start = "Open using time"
-    segment_stop = ".*Open to render using time:.*"
+    # segment_start = "Init using time"
+    segment_stop = ">>>>>>>>>>close end"
     tempList = []  # counter for readline
     content = []
     new_content = []
@@ -104,7 +106,9 @@ def segmentLog(logfile):
     while flag1:
         line = f.readline()
         tempList.append(line)
-        if re.search(segment_stop, line):  # keyword is in that line
+        # if re.search(segment_stop, line):  # keyword is in that line
+        if line.find(segment_stop) >= 0:
+            # print line
             temp = ''.join(tempList)
             content.append(temp)
             tempList = []
@@ -114,22 +118,23 @@ def segmentLog(logfile):
             flag1 = 0
             break
 
-    for each_segment in content:
-        for each_line in each_segment.splitlines():
-            if each_line.find(segment_start) >= 0:
-                new_segment = each_segment[each_segment.index(each_line):]
-                new_content.append(new_segment)
-    return new_content
+    # for each_segment in content:
+    #     for each_line in each_segment.splitlines():
+    #         if each_line.find(segment_start) >= 0:
+    #             new_segment = each_segment[each_segment.index(each_line):]
+    #             new_content.append(new_segment)
+    return content
 
 
 def text2list(logfile):
     """translate text segment to new dictionary: {"Stop":xx, "Close":yy..}"""
     #content = open("1.txt", "rb").read()
     content = segmentLog(logfile)
+    print content
     segmentDicList = {}
     segmentList = []
     for segment in content:
-        print segment
+        #print segment
         print '*' * 20
         for key, vaule in patternDic.items():
             result = re.findall(vaule, str(segment))
@@ -138,6 +143,7 @@ def text2list(logfile):
                 try:
                     segmentDicList[key] = result[0]
                 except Exception as e:
+                    print key
                     print e
                     segmentDicList[key] = " "
             else:  # 当关键字应该出现2次的情况
