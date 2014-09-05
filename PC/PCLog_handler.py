@@ -25,7 +25,7 @@ csvfile = file(new_csv, 'wb')
 """
 
 
-pattern_Open = "\d{2}:\d{2}:\d{2}\.\d{3} @@@VOLOG.*\[Open\] @ (\d*)"
+pattern_Open = "\d{2}:\d{2}:\d{2}\.\d{3} @@@VOLOG.*\[Open\] call open @ (\d*)"
 pattern_Video = "\d{2}:\d{2}:\d{2}\.\d{3} @@@VOLOG.*\[Video\] gonna to be rendered @ (\d*)"
 pattern_Decrypt = "(\d*:\d*:\d*.\d{3}) @@@VOLOG.* VR Decrypt"
 
@@ -73,7 +73,7 @@ def text2list(logfile):
     segmentList = [segmentDicList[key] for key in patternList[:3]]
     if "NA" not in segmentList:
         if len(segmentList) == 3:  # 如果成功取到三个元素，则可以进行运算计算出花费时间
-            print "看这里看这里"
+            print "准备计算时间差"
             print segmentList
             cost = segmentList[1] - segmentList[0]
             segmentList.append(cost)
@@ -81,7 +81,7 @@ def text2list(logfile):
             pass
     else:
         print logfile
-        print "数据缺失:("
+        print str(logfile) + "数据缺失:("
     return segmentList
 
 

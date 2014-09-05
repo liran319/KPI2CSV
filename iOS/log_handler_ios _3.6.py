@@ -40,11 +40,11 @@ Aug 21 15:13:37 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>
 Aug 21 15:13:37 Viviande-mini2 Ericsson_SamplePlayer[1886] <Warning>: >>>>>>>>>>close start  = 1408605217204.575928 ms
 """
 # pattern_Init = "Init using time.{2}(\d*) ms,"
-pattern_Open = "\w{3} \d{2} \d{2}:\d{2}:\d{2}.{65}open itself using\s{1,2}= (\d*\.\d*) ms"
+pattern_Open = "\w{3} \d{2} \d{2}:\d{2}:\d{2}.{65}open itself using\s{1,2}=\s(\d*\.\d*) ms"
 # pattern_Open_Complete = "Open complete using time.{2}(\d*) ms,"
-pattern_Run = "\w{3} \d{2} \d{2}:\d{2}:\d{2}.{100}run using time.{3}(\d*\.\d*)"
-pattern_Buffer = "\w{3} \d{2} \d{2}:\d{2}:\d{2}.{65}buffer using time\s{1,2}= (\d*\.\d*) ms"
-pattern_Open_Render = "\w{3} \d{2} \d{2}:\d{2}:\d{2}.{65}open to render time.{3,4}(\d*\.\d*) ms"
+pattern_Run = "\w{3} \d{2} \d{2}:\d{2}:\d{2}.{100}run using time\s=\s(\d*\.\d*)"
+pattern_Buffer = "\w{3} \d{2} \d{2}:\d{2}:\d{2}.{65}buffer using time\s{1,2}=\s(\d*\.\d*) ms"
+pattern_Open_Render = "\w{3} \d{2} \d{2}:\d{2}:\d{2}.{65}open to render time\s=\s(\d*\.\d*) ms"
 pattern_Stop = '\w{3}\s\d{2}\s\d{2}:\d{2}:\d{2}\s.{101}stop using time:\s(\d*\.\d*)'
 pattern_IsHandshakeVerified = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR IsHandshakeVerified"
 pattern_SetLogging = ".*I/VOLOG.*: (\d*:\d*:\d*.\d{3}) .* VR SetLogging"
