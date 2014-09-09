@@ -25,8 +25,8 @@ csvfile = file(new_csv, 'wb')
 """
 
 
-pattern_Open = "\d{2}:\d{2}:\d{2}\.\d{3} @@@VOLOG.*\[Open\] call open @ (\d*)"
-pattern_Video = "\d{2}:\d{2}:\d{2}\.\d{3} @@@VOLOG.*\[Video\] gonna to be rendered @ (\d*)"
+pattern_Open = "\d{2}:\d{2}:\d{2}\.\d{3} @@@VOLOG.*\[Open\]( call open)? @ (\d*)"
+pattern_Video = "\d{2}:\d{2}:\d{2}\.\d{3} @@@VOLOG.*\[Video\]( gonna to be rendered)? @ (\d*)"
 pattern_Decrypt = "(\d*:\d*:\d*.\d{3}) @@@VOLOG.* VR Decrypt"
 
 patternDic = {
@@ -60,7 +60,7 @@ def text2list(logfile):
         if key in patternList1:  # 当关键字只能是唯一的时候
             # 如果搜寻不到，打印错误并且设置输出值为空
             try:
-                segmentDicList[key] = int(result[0])
+                segmentDicList[key] = int(result[0][-1])
             except Exception as e:
                 print key
                 print "ErrorInfo: ", e
@@ -71,7 +71,8 @@ def text2list(logfile):
             else:
                 segmentDicList[key] = "NA"
     segmentList = [segmentDicList[key] for key in patternList[:3]]
-    if "NA" not in segmentList:
+    # if "NA" not in segmentList[0]:
+    if segmentList[0] != 'NA' and segmentList[1] != 'NA':
         if len(segmentList) == 3:  # 如果成功取到三个元素，则可以进行运算计算出花费时间
             print "准备计算时间差"
             print segmentList
@@ -80,8 +81,7 @@ def text2list(logfile):
         else:
             pass
     else:
-        print logfile
-        print str(logfile) + "数据缺失:("
+        print str(logfile) + " 数据缺失:("
     return segmentList
 
 
